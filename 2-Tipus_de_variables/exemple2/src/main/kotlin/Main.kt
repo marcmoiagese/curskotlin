@@ -31,4 +31,8 @@ fun main(parametre: Array<String>) {
 * Si volguéssim operar amb valors decimals per inferència, hauríem d'utilitzar la següent sintaxi:
 * var pes = 4122.23 // indica que es double
 * val altura = 10.42f // afegint la f o F al final indica al compilador que es float
+* 
+* A partir de la versió 1.3 de Kotlin, és possible declarar la funció main() sense cap paràmetre. Això significa que, encara que l'entorn d'execució enviï arguments a la funció, aquests no seran 
+* utilitzats. La nova sintaxi és simplement fun main(), que permet simplificar el codi eliminant el paràmetre que no es farà servir."
+* 
 */
