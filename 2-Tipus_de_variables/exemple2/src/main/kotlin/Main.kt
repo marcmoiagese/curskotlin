@@ -26,3 +26,9 @@ fun main(parametre: Array<String>) {
     resultat = val1 * val2
     println("El producte de $val1 * $val2 es $resultat")
 }
+
+/**
+* Si volguéssim operar amb valors decimals per inferència, hauríem d'utilitzar la següent sintaxi:
+* var pes = 4122.23 // indica que es double
+* val altura = 10.42f // afegint la f o F al final indica al compilador que es float
+*/
