@@ -13,3 +13,21 @@ fun main(args: Array<String>) {
     else
         print("El valor mes gran es $val2")
 }
+
+/**
+ * Només es pot passar variables, valors constants i operadors relacionals com a paràmetres a una condició.
+ *
+ * Com a operadors relacionals tenim:
+ * >  (Mes gran que)
+ * <  (Mes petit que)
+ * >= (Mes gran o igual que)
+ * <= (Mes petit o igual que)
+ * == (Igual)
+ * != (Diferent)
+ * + (mes)
+ * - (menys)
+ * * (producte)
+ * / (divisió)
+ * % (resta d'una divisió)
+ *
+ */
