@@ -15,3 +15,4 @@ fun main(args: Array<String>) {
     val promig = suma/10
     println("La suma dels numeros es $suma i el seu promig es $promig")
 }
+
