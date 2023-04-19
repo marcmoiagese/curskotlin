@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     var x = 1
     var apte = 0
     while( x <= peces ){
-        println("Donem el perfil per a la peça número $x")
+        println("Donam el perfil per a la peça número $x")
         val perfil = readln().toDouble()
 
         if(perfil >= 1.20 && perfil <= 1.30)
