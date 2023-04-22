@@ -6,29 +6,27 @@ L'estructura do/while és un altre tipus d'estructura repetitiva que, com a mín
 
 Acotacions, per incrementar el valor d'una variable utilitzarem l'operador ++ es a dir
 
-´´´kotlin
+```kotlin
 contador++
-´´´
+```
 
 es el mateix que escriure
 
-´´´kotlin
+```kotlin
 contador=contador+1
-´´´
+```
  
 També tenim l'operador -- que realitza l'operació contraria, que es restar. 
 
 Una altra funcionalitat que tenim disponible l'opcio de sumar un valor, per exemple podriam comtar en una secuencia de 5 en 5
 
-´´´kotlin
+```kotlin
 contador += 5
-´´´
+```
 
 que seria el mateix que fer
 
-´´´kotlin
+```kotlin
 contador=contador+5
-´´´
-
-
+```
 
