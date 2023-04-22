@@ -7,6 +7,8 @@ WHILE ( Mentres.. )
 Una estructura WHILE com a primera acció verifica si la condició definida es compleix, en cas afirmatiu, s'executaran les instruccions indicades fins que aquesta condició cambio.
 En cas que la condicio sempre retorni verdader com per exemple seria ( 1 == 1 ) tindriam un bucle infinit.
 
+Un esquema que ens pugui ajudar a entendre mes el funcionament del while seria el seguent:
+
 ```less
 Inici
 ├── Establir variable contador a 0
@@ -16,3 +18,5 @@ Inici
 └── Fi del bucle while
 Fi
 ```
+
+
