@@ -25,7 +25,35 @@ if(18 !in dotzena)
 	println("el 18 no esta dins el rang de la dotzena")
 ```
 
-Els dos if es verifiquen com a cert
+Els dos if es verifiquen com a cert, el diagrama per poder compendre millor com funciona el bucle for seria:
+
+```css
+[INICI]
+   │
+   ▼
+[BUCLE FOR]
+   │
+   ├──❏ Comptador = 0
+   │
+   ├──❏ Comptador és menor que 10?
+   │       │
+   │       ├──❏ Sí
+   │       │   │
+   │       │   ├──► [IMPRIMIR CONTADOR]
+   │       │   │
+   │       │   └──► [INCREMENTAR COMPTADOR]
+   │       │
+   │       └──❏ No
+   │
+   └──► [SORTIR DEL BUCLE FOR]
+   │
+   │
+   ▼
+[FI]
+```
+
+
+
 
 ## Variants del Bucle Fror
 
