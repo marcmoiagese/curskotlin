@@ -9,14 +9,28 @@ En cas que la condicio sempre retorni verdader com per exemple seria ( 1 == 1 ) 
 
 Un esquema que ens pugui ajudar a entendre mes el funcionament del while seria el seguent:
 
-```less
-Inici
-├── Establir variable contador a 0
-├── Mentre contador sigui menor que 10, fer:
-│   ├── Imprimir contador
-│   ├── Augmentar contador en 1
-└── Fi del bucle while
-Fi
+```css
+[INICI]
+   │
+   ▼
+[BUCLE WHILE]
+   │
+   ├──❏ Comptador és menor que 10?
+   │       │
+   │       ├──❏ Sí
+   │       │   │
+   │       │   ├──► [IMPRIMIR CONTADOR]
+   │       │   │
+   │       │   └──► [INCREMENTAR COMPTADOR]
+   │       │
+   │       └──❏ No
+   │
+   └──► [SORTIR DEL BUCLE WHILE]
+   │
+   │
+   ▼
+[FI]
+
 ```
 
 
