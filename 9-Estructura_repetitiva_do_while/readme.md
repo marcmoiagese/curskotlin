@@ -2,6 +2,31 @@
 
 L'estructura do/while és un altre tipus d'estructura repetitiva que, com a mínim, s'executa una vegada. Es sol utilitzar quan tenim clar que és necessari executar el bloc d'instruccions almenys una vegada. A diferència del while, la condició de sortida aquí es troba al final, representant la sortida.
 
+```css
+[INICI]
+   │
+   ▼
+[BUCLE DO/WHILE]
+   │
+   ├──► [IMPRIMIR CONTADOR]
+   │
+   ├──► [INCREMENTAR CONTADOR]
+   │
+   ├──❏ El contador és menor que 10?
+   │       │
+   │       ├──❏ Sí
+   │       │   │
+   │       │   └──❏ Tornar al principi del bucle do/while
+   │       │
+   │       └──❏ No
+   │
+   └──► [SORTIR DEL BUCLE DO/WHILE]
+   │
+   │
+   ▼
+[FI]
+```
+
 ## Acotacions
 
 Acotacions, per incrementar el valor d'una variable utilitzarem l'operador ++ es a dir
