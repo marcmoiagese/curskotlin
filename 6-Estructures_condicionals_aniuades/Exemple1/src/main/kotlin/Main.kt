@@ -1,5 +1,4 @@
 /**
- * Diguem que una estructura és acollida quan, tant per la branca de veritat com per la de fals d'una estructura condicional, apareix una altra estructura condicional.
  * L'exemple següent ens mostrarà un programa que sol·licita tres números per teclat i calcula la seva mitjana. Posteriorment, imprimeix un dels missatges següents:
  * Si el promig es >=7 imprimiras "Promocionat"
  * Si el promig es >=4 i < 7 imprimiras "meh"
