@@ -5,3 +5,26 @@ Quan ens trobem davant de la presa de decisions, disposem de les estructures con
 ## Estructura condicional simple
 
 Una estructura condicional simple és quan, enfrontats a una decisió, prenem una única opció en funció d'una condició específica.
+
+```css
+[INICI]
+   │
+   ▼
+[IF]
+   │
+   ├──❏ Condició és veritable?
+   │       │
+   │       ├──❏ Sí
+   │       │   │
+   │       │   └──► [FAI X]
+   │       │
+   │       └──❏ No
+   │           │
+   │           └──► [SORTIR DEL IF]
+   │
+   └──► [SORTIR DEL IF]
+   │
+   │
+   ▼
+[FI]
+```
