@@ -1,11 +1,4 @@
 /**
- * Fins ara hem vist els seguents operadors:
- * realcionals (>, <, >=, <=, ==, !=)
- * Matematics (+, -, *, /, %)
- *
- * Pero encara ens falten els logics && i || que principalment utilitzarem dins les estructures condicionals logiques per agrupar condicions
- * L'operador && el podem llegir com a "I" ( "Si la condicio 1" I "La condicio 2" ) es compleixen entraria
- * Això ens permet escurssar molt codi, ja que ens estalviem linies posant-ho tot dins un mateix if
  *
  * Al seguent exemple realitzarem un programa que llegeixi per teclat tres numeros i ens mostri el mes gran
  *

@@ -1,5 +1,4 @@
 /**
- * L'operador || el podem llegir com a "o" entraria quan la condiició 1 o la condicio 2 es compleix.
  *
  * Al seguent exemple carregarem una data, dia, mes i any per teclat. mirarem si es el primer trimestre
  */
