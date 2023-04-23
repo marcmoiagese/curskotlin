@@ -1,7 +1,5 @@
 /**
  *
- * A Kotlin, existeix la possibilitat que l'estructura condicional "if" retorni un valor, aquesta característica no és gens comuna en altres llenguatges de programació.
- *
  * Carrega dos valors enters, emmagatzema el més gran d'ells en una nova variable i imprimeix-lo per pantalla.
  *
  */
