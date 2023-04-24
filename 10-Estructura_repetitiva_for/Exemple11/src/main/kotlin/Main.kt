@@ -1,38 +1,33 @@
 /**
- * Escriu un programa que demani coordenades X i y que representin un punt en un pla.
- * Informa de cuants punts s'han posat al primer, segon, tercer i cuart cuadrant. Al iniciar el programa es demanara quants punts s'han de processar
+ * Es realitza la carrega de 10 valors enters per teclat. es vol coneixer
+ * - La cantitat de valors introduits negatius.
+ * - La cantitat de valors introduits positius.
+ * - La cantitat de multiples de 15.
+ * - El valor acumulat dels numeros introduits que siguin parells.
  */
 
 fun main(args: Array<String>) {
-    var cant1 = 0
-    var cant2 = 0
-    var cant3 = 0
-    var cant4 = 0
-    print("Cantitat de punts a ingressar: ")
-    val cantitat = readln().toInt()
+    var negatius = 0
+    var positius = 0
+    var multiple15 = 0
+    var sumaparells = 0
 
-    for(i in 1..cantitat){
-        print("Donam la coordenada x: ")
-        val x = readln().toInt()
-
-        print("Donam una coordenada y: ")
-        val y  = readln().toInt()
-
-        if(x > 0 &&  y > 0)
-            cant1++
+    for (i in  1..10){
+        println("Donam un valor: ")
+        val valor = readln().toInt()
+        if(valor<0)
+            negatius++
         else
-            if (x <0 &&  y >0)
-                cant2++
-            else
-                if(x<0 && y < 0)
-                    cant3++
-                else
-                    if (x > 0 && y < 0)
-                        cant4++
-
+            if(valor > 0)
+                positius++
+        if(valor % 15 == 0)
+            multiple15++
+        if(valor % 2 == 0)
+            sumaparells+=valor
     }
-    println("Cantitat de punts al primer cuadrant: $cant1")
-    println("Cantitat de punts al segon cuadrant: $cant2")
-    println("Cantitat de punts al tercer cuadrant: $cant3")
-    println("Cantitat de punts al quart cuadrant: $cant4")
+
+    println("La cantitat de valors negatius: $negatius")
+    println("La cantitat de valors positius: $positius")
+    println("La cantitat de valors multiples de 15: $multiple15")
+    println("La suma dels valors parells es: $sumaparells")
 }
