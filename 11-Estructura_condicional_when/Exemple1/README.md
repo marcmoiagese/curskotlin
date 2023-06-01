@@ -19,7 +19,9 @@ Escrivim la paraula clau when i entre claus les diferents condicions, seguides d
     }
 ```
 
-Si una de les condicions es certa, no s'analitzaran les següents, si cap de les cuatre condicions descrites es certa, s'executara la condició que hem descrit dins el else. El mateix problema es pot resoldre amb if aniuats, pero queda mes clar i concís amb when
+Si una de les condicions es certa, no s'analitzaran les següents, si cap de les cuatre condicions descrites es certa, s'executara la condició que hem descrit dins el else. Tinguis en compte que el else es opcional, per lo que si no coincideix actuara com un if i no fara res.
+
+El mateix problema es pot resoldre amb if aniuats, pero queda mes clar i concís amb when
 
 ```kotlin
    if (x > 0 && y > 0)
