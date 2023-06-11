@@ -14,6 +14,8 @@ fun inventada (parametre: tipus): int {
   return variable_de_retorn
 }
 ```
+Cuan una funció es topa amb la paraula **return** no segueix executan la resta de la funció, sino que retorna el resultat a la línea que l'ha invocat.
+
 A l'hora d'invocar la funció també hem de tenir en compte que hem de passar la sortida a una variable. Per exemple, l'exemple que anterior l'invocariam aixi:
 
 ```kotlin
@@ -25,4 +27,4 @@ També podem cridar la funció dins un string, engloban la variable entre ${}
 ```kotlin
 println("EL retorn de la funcio es: ${inventada(valor)}")
 ```
- 
+
