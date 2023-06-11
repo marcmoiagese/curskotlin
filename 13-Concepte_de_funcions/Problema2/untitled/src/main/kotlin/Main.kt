@@ -12,13 +12,12 @@ fun carregam(){
     println("Donam el tercer valor")
     val valor3 = readln().toInt()
 
-    if(valor1 < valor2 && valor1 < valor3){
-        println("El valor petit es $valor1")
-    }else if(valor1 > valor2 && valor1 > valor3){
-        println("El valor petit es $valor2")
-    } else  {
-        println("El valor petit es $valor3")
+    when {
+        valor1 < valor2 && valor1 < valor3 -> println("El valor petit es $valor1")
+        valor1 > valor2 && valor1 > valor3 -> println("El valor petit es $valor2")
+        else -> println("El valor petit es $valor3")
     }
+
 }
 
 fun main(args: Array<String>) {
