@@ -3,7 +3,7 @@
  */
 
 fun perimetre(v1: Int): Int{
-    var perim = v1 * v1
+    var perim = v1 * 4
     return perim
 }
 
