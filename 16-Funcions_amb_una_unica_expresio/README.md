@@ -3,7 +3,7 @@
 Les funcions que tenen una unica expresió a Kotlin es poden expresar sense el bloc de claus i mitjançant una asignacio el valor a retornar.
 
 ```kotlin
-fun retornarSuperficie(costat: Int) = costat * costat
+fun funcio(var: Int) = var * var
 ```
-
+com pots veure, la implementació completa de la funció es fa en una sola linea. Despues de cridar la funció posem = i seguidament l'expersió, com pots veure en aquest cas no hem indicat qun es el tipus de dada que retornara, ja que no es necessari indicar quin es el tipus de dada que retorna la funció. Aixó es per que el compilador interpreta quin es el resultat de var * var.
 
