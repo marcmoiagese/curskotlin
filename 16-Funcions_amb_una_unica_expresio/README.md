@@ -12,5 +12,11 @@ Tenin en compte que l'expresió if pot escriures com una expresió, també la po
 ```kotlin
 fun nomFuncio(var1: Tipo, var2: Tipo) = if (var1 > var2) var1 else var2
 ```
+També podem introduir "when" com a expresió de retorn de la funció
 
-
+```kotlin
+fun funcio(var: Int) = when {
+    var < 1 -> "var es X"
+    var > 1 -> "var es Y"
+    else -> "var es Z"
+} 
