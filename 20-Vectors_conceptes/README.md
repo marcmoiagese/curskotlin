@@ -64,6 +64,13 @@ Altres classes de vectors que tenim a Kotlin serien:
 - BooleanArray
 - CharArray
 
+## Propietats dels index
+La classe IntArray te una propietat IntRange que enmagatzema el rang minim i maxim del vector. La propietat indices la podem utilitzar al for per recorrer els diferents components que formen el vector.
+
+```kotlin
+for ( i in vector.indices) {}
+```
+
 
 
 
