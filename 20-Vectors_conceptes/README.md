@@ -70,8 +70,13 @@ La classe IntArray te una propietat IntRange que enmagatzema el rang minim i max
 ```kotlin
 for ( i in vector.indices) {}
 ```
+Es mes convenient utilitzar la propietat indices que vector.size-1
 
+També podem recorrer el vector dins un for de la seguent manera:
 
-
+```kotlin
+for ( element in vector )
+	println(element)
+```
 
 
