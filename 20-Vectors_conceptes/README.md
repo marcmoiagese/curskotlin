@@ -29,5 +29,42 @@ Per declarar un vector d'enters a Kotlin, podem fer-ho  de la seguent manera
 val SocunVector: IntArray
 SocunVector = IntArray(20)
 ```
-
 La segona línea es per crear un vector reservan espai per a 5 components.
+
+Podem declarar el vector a una sola linea
+
+```kotlin
+val SocunVector = IntArray(20)
+```
+
+Per accedir a cada component del vector utilitzarem claus, i mitjançant un subindex indicarem quin component estem processan.
+
+```kotlin
+SocunVector[i]
+```
+Els components comensen des de 0 fins al tamany que li hem indicat -1.
+
+Igual que amb les cadenes de text, podem coneixer la longitud d'un vector
+
+```kotlin
+println(SocunVector.size)
+```
+
+La [biblioteca estandard de Kotlin]: https://kotlinlang.org/api/latest/jvm/stdlib/ te totes les classes basiques que es necessiten per programar amb aquest llenguatge organitzat amb paquets.
+
+Al paquet [Kotlin]: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/ podem identificar que es troba declarada la classe IntArray.
+
+Altres classes de vectors que tenim a Kotlin serien:
+
+- ByteArray
+- ShortArray
+- LongArray
+- FloatArray
+- DoubleArray
+- BooleanArray
+- CharArray
+
+
+
+
+
