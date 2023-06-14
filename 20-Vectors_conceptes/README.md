@@ -23,3 +23,11 @@ Un vector es representa típicament mitjançant una notació amb una fletxa sobr
 
 On v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub> són les components del vector en cada una de les seves dimensions.
 
+Per declarar un vector d'enters a Kotlin, podem fer-ho  de la seguent manera
+
+```kotlin
+val SocunVector: IntArray
+SocunVector = IntArray(20)
+```
+
+La segona línea es per crear un vector reservan espai per a 5 components.
