@@ -11,8 +11,10 @@ fun main(args: Array<String>) {
 
     var ordenat = true
     for (i in 0..vector.size-2)
-        if(vector[i+1]<vector[i])
+        if(vector[i+1]<vector[i]) {
             ordenat = false
+            break
+        }
 
     if(ordenat)
         print("Els elements estan ordenats de mes petit a mes gran")
