@@ -50,9 +50,9 @@ Igual que amb les cadenes de text, podem coneixer la longitud d'un vector
 println(SocunVector.size)
 ```
 
-La [biblioteca estandard de Kotlin]: https://kotlinlang.org/api/latest/jvm/stdlib/ te totes les classes basiques que es necessiten per programar amb aquest llenguatge organitzat amb paquets.
+La [biblioteca estandard de Kotlin](https://kotlinlang.org/api/latest/jvm/stdlib/) te totes les classes basiques que es necessiten per programar amb aquest llenguatge organitzat amb paquets.
 
-Al paquet [Kotlin]: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/ podem identificar que es troba declarada la classe IntArray.
+Al paquet [Kotlin](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/) podem identificar que es troba declarada la classe IntArray.
 
 Altres classes de vectors que tenim a Kotlin serien:
 
@@ -131,6 +131,20 @@ Ara podem entendre el parametre que arriba a la funció main de tot programa Kot
 ```kotlin
 fun main(args: Array<String>) {}
 ```
-Sería un vector de tipus string. 
+Es un vector de tipus string. 
 
+Si executem el [seguent programa:](https://github.com/marcmoiagese/curskotlin/blob/master/20-Vectors_conceptes/Exemple6/src/main/kotlin/Main.kt) podrém entendre millor el funcionament. Per validar el correcte funcionament li tindriam que pasar parametres quan l'executem. Per  fer-ho amb IntelliJ IDEA podem configurar anan a Run -> Edit configuration..
+
+[exemple configuracio](https://github.com/marcmoiagese/curskotlin/blob/master/20-Vectors_conceptes/img/1.png?raw=true)
+
+Despres de configurar-lo així, ja podem executar el progra 
+
+```kotlin
+fun main(parametre: Array<String>) {
+    for(index in 0..parametre.size-1)
+        println("${parametre[index]} -")
+}
+```
+
+Cuan executem el programa el vector 'parametre' enmagatzema els tres valors de tipus String amb les cadenes que hem configurat per passarli durant la carrega del programa "un, dos, tres"
 
