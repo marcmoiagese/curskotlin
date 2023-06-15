@@ -148,3 +148,12 @@ fun main(parametre: Array<String>) {
 
 Cuan executem el programa el vector 'parametre' enmagatzema els tres valors de tipus String amb les cadenes que hem configurat per passarli durant la carrega del programa "un, dos, tres"
 
+També podem recor el vector a traves d'un for com hem vist mes amun
+
+```kotlin
+fun main(parametre: Array<String>){
+	for(element in parametre)
+		print("$element")
+}
+```
+
