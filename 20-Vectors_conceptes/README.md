@@ -135,7 +135,7 @@ Es un vector de tipus string.
 
 Si executem el [seguent programa:](https://github.com/marcmoiagese/curskotlin/blob/master/20-Vectors_conceptes/Exemple6/src/main/kotlin/Main.kt) podrém entendre millor el funcionament. Per validar el correcte funcionament li tindriam que pasar parametres quan l'executem. Per  fer-ho amb IntelliJ IDEA podem configurar anan a Run -> Edit configuration..
 
-![exemple configuracio][https://github.com/marcmoiagese/curskotlin/blob/master/20-Vectors_conceptes/img/1.png?raw=true] 
+[exemple configuracio](https://github.com/marcmoiagese/curskotlin/blob/master/20-Vectors_conceptes/img/1.png)
 
 Despres de configurar-lo així, ja podem executar el progra 
 
