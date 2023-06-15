@@ -79,4 +79,58 @@ for ( element in vector )
 	println(element)
 ```
 
+## Altres característiques que poden ser utils.
+
+Podem imprimir cada element i el seu index iteran el vector cridan al metode  withIndex de la clasae IntArray
+
+```kotlin
+for( (index, element) in vector.withIndex() )
+	println("Al index $index es guarda l'element $element")
+```
+
+També pots utilitzar el metode withIndex per carregar valors.
+
+```kotlin
+for( (index, element) in vector.withIndex() ){
+	print("Donam un valor: ")
+	vector[index] = readln().toInt()
+}
+```
+
+## Classe Array
+
+Kotlin te una classe generica anomenada Array que permet enmagatzemar valors de cualsevol tipus primitiu i tambe de tipus objecte que ja veurem mes endavan de que es tracta.
+
+Podem  crear un vector amb dades de tipus double:
+
+```kotlin
+fun main(parametre: Array<String>){
+	val salaris=arrayOf<Double>(1200.0, 1700.50m, 6000.0)
+	for(i in 0..salaris.size-1)
+		print("${salaris[i]} - ")
+}
+```
+
+Amb la funció arrayOf indiquem els elements a guardar al vector.
+
+Podem utilitzar la funció arrayOfNulls i pasar com a parametre la cantitat d'espai a reservar.
+
+```kotlin
+fun main(parametre: Array<String>){
+	val altures = arrayOOfNulls<Float>(3)
+	altures[0]=1.72f
+	altures[1]=1.79f
+	altures[2]=1.67f
+	for(index in 0..altures.size-1)
+		print("${altures[index]} -"
+}
+```
+
+Ara podem entendre el parametre que arriba a la funció main de tot programa Kotlin:
+
+```kotlin
+fun main(args: Array<String>) {}
+```
+Sería un vector de tipus string. 
+
 
