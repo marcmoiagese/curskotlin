@@ -68,6 +68,6 @@ Un altre exemple per ser més concís és no indicar el tipus de la variable i f
 
 ## Problemes:
 
-- Definiu una variable immutable amb el valor 50 que representa el costat d'un quadrat. A continuació, creeu dues variables immutables per emmagatzemar la superfície i el perímetre del quadrat. Mostreu la superfície i el perímetre per la Consola. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/2-Tipus_de_variables/prob1/src/main/kotlin/Main.kt)
+- Definiu una variable immutable amb el valor 50 que representa el costat d'un quadrat. A continuació, creeu dues variables immutables per emmagatzemar la superfície i el perímetre del quadrat. Mostreu la superfície i el perímetre per la Consola. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/2-Tipus_de_variables/prob1/src/main/kotlin/Main.kt) )
 - Definiu tres variables immutables i assigneu-hi els pesos de tres persones amb valors Float. Calculeu la mitjana dels pesos de les persones i mostreu-la. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/2-Tipus_de_variables/prob2/src/main/kotlin/Main.kt) )
 
