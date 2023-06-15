@@ -7,3 +7,7 @@ Com que es genera un codi intermig per ser interpretat per la JVM, ens permet in
 Per poder comensar amb Kotlin, primer hem d'instalar [JDK](https://www.oracle.com/java/technologies/downloads/)
 
 Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?fromMenu#chooseYourEdition) per comensar amb kotlin que disposa de la verió Community, que es gratuita.
+
+## Index
+
+- [Hola Mon amb Kotlin](https://github.com/marcmoiagese/curskotlin/tree/master/1-hola-mon)
