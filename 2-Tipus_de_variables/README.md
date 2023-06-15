@@ -56,3 +56,18 @@ Finalment, si el que necessitem és emmagatzemar un valor de tipus lògic, hem d
 ```kotlin
 var fin:Boolean=false
 ```
+
+
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/2-Tipus_de_variables/exemple1/src/main/kotlin/Main.kt)
+
+El Seguent exemple crearem un programa que defineixi dues variables immutables de tipus Int. Després definir una tercera variable mutable que emmagatzemi la suma de les dues primeres variables i la mostri. Seguidament, emmagatzemar en la variable el producte de les dues primeres variables i mostrar el resultat.
+
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/2-Tipus_de_variables/exemple2/src/main/kotlin/Main.kt)
+
+Un altre exemple per ser més concís és no indicar el tipus de la variable i fer que el compilador de Kotlin el dedueixi.
+
+## Problemes:
+
+- Definiu una variable immutable amb el valor 50 que representa el costat d'un quadrat. A continuació, creeu dues variables immutables per emmagatzemar la superfície i el perímetre del quadrat. Mostreu la superfície i el perímetre per la Consola. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/2-Tipus_de_variables/prob1/src/main/kotlin/Main.kt)
+- Definiu tres variables immutables i assigneu-hi els pesos de tres persones amb valors Float. Calculeu la mitjana dels pesos de les persones i mostreu-la. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/2-Tipus_de_variables/prob2/src/main/kotlin/Main.kt) )
+
