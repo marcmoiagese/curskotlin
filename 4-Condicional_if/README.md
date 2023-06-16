@@ -35,17 +35,19 @@ Només es pot passar variables, valors constants i operadors relacionals com a p
 
 Com a operadors relacionals tenim:
 
-- >  (Mes gran que)
-- <  (Mes petit que)
-- >= (Mes gran o igual que)
-- <= (Mes petit o igual que)
-- == (Igual)
-- != (Diferent)
-- + (mes)
-- - (menys)
-- * (producte)
-- / (divisió)
-- % (resta d'una divisió)
+```
+>  (Mes gran que)
+<  (Mes petit que)
+>= (Mes gran o igual que)
+<= (Mes petit o igual que)
+== (Igual)
+!= (Diferent)
++ (mes)
+- (menys)
+* (producte)
+/ (divisió)
+% (resta d'una divisió)
+```
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/4-Condicional_if/Exemple1/src/main/kotlin/Main.kt)
 
