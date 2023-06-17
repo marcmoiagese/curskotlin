@@ -31,6 +31,19 @@ class [nom de la classe] {
 }
 ```
 
+Per cridar a una classe primer l'hem d'inicialitzar, crean una variable de tipus [nom de la classe] i despres inicialitzarla
+
+```kotlin
+val variable: nom_de_la_classe
+variable =  nom_de_la_classe()
+```
+
+Igual que amb les variables, podem simplificar-ho
+
+```kotlin
+val variable = nom_de_la_classe()
+```
+
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/22-POO-Conceptes_de_programacio_orientada_a_objectes/Exemple1/src/main/kotlin/Main.kt)
 
 Crearem una classe anomenada Persona que tindra com a propietats ( variables ) el seu nom i edat, ademés tindrà tres mètodes ( funcions )
