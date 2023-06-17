@@ -136,4 +136,4 @@ Farem una classe que carregui els costats d'un triangle, pero aquest cop, amb do
 	- 4rt Cuadrant: si X > 0 i Y < 0
 	- Si algun o els dos valors es 0, significa que el punt esta sobre l'eix
   * Defineix 5 objectes de la classe punt, un per cada un dels cuadrants i un per un eix.
-  [Solució]() 
+  [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/23-POO-Constructor_de_la_classe/Problema2/src/main/kotlin/Main.kt) 
