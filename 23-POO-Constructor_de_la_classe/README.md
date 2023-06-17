@@ -82,6 +82,22 @@ class cotxe (var color: String,var portes: Int){
 	portes  = readln().toInt()	
       }
 ```
+D'aquesta manera podém cridar un constructor o un altre en funció de les noestres nesecitats. es a dir, si cridem la classe de la seguent manera:
+
+```kotlin
+val cotxe1 = cotxe()
+```
+Entrara al segon constructor, i ens solicitarà els valors per realitzar la carrega a través del teclat. Però si li passem els valors al declarar la classe, no entrarà al segon constructor.
+
+```kotlin
+val cotxe1 = cotxe("Roig",5)
+```
+
+També pots veure, que el segon constructor, crida al primer amb la paraula this i entre parentesis les dades a enviar
+
+```kotlin
+constructor():this("",0){
+```
 
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/23-POO-Constructor_de_la_classe/Esemple1/src/main/kotlin/Main.kt)
 
@@ -96,4 +112,21 @@ Desenvoluparem una classe que carregara els costats d'un triangle i implenetara 
 * Imprimira el valor del costat que sigui mes gran.
 * Ens mostrarà si es equilater o no.
 
+## Problemes
 
+- Crea una classe anomenada Alumne que tingui com a propietats el seu nom i nota. Al constructor li arriva el seu nom i la seva nota.
+  * Imprimir el nom i la nota
+  * Imprimir un missatge si la nota es superior o igual a 5 indican que esta aprobat
+  * Defineix dos objectes de la classe Alumne
+  [Solució]()
+
+
+- Fes una classe que representi un punt en un plà, la coordenada del punt sobre el plà es defineix entre dos valors x i y. Al constructor se li enviarà les coordenades del punt x i de y.
+  * Crea un mètode que retorni un String indicant en quin cuadran esta el punt. tenin en compte els següents valors
+	- 1er Cuadrant: si X > 0 i Y > 0
+	- 2on Cuadrant: si X < 0 i Y > 0
+	- 3er Cuadrant: si X < 0 i Y < 0
+	- 4rt Cuadrant: si X > 0 i Y < 0
+	- Si algun o els dos valors es 0, significa que el punt esta sobre l'eix
+  * Defineix 5 objectes de la classe punt, un per cada un dels cuadrants i un per un eix.
+  [Solució]() 
