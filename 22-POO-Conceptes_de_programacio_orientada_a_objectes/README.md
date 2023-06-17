@@ -30,3 +30,11 @@ class [nom de la classe] {
   [métodes o funcions de la classe]
 }
 ```
+
+## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/22-POO-Conceptes_de_programacio_orientada_a_objectes/Exemple1/src/main/kotlin/Main.kt)
+
+Crearem una classe anomenada Persona que tindra com a propietats ( variables ) el seu nom i edat, ademés tindrà tres mètodes ( funcions )
+* un dels metodes inicialitzarà les propietats del nom i la edat.
+* un alre metode ens ensenyara per pantalla el contingut de les propietats.
+* L'ultim metode ens informara si es major d'edat.
+Definirem dos objectes de la clase Persona.
