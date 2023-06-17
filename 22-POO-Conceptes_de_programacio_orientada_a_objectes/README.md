@@ -51,3 +51,5 @@ Crearem una classe anomenada Persona que tindra com a propietats ( variables ) e
 * un alre metode ens ensenyara per pantalla el contingut de les propietats.
 * L'ultim metode ens informara si es major d'edat.
 Definirem dos objectes de la clase Persona.
+
+
