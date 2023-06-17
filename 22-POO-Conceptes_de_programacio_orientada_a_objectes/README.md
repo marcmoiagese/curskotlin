@@ -59,3 +59,13 @@ Fes una classe que carregui les dades d'un triangle i implementi els seguents me
 * Inicialitzar les propietats
 * Imprimir el valor del costat que sigui mes gran
 * I un metode que ens mostri si es equilater o no
+
+## Problemes
+
+- Fes una classe anomenada Alumne que tingui com a propietats el seu nom i la seva nota.
+  * Defineix els mètodes per inicialitzar les seves propietats per teclat.
+  * Imprimeix les propietats
+  * I imprimeix un missatge si esta regular ( mes gran o igual a 5 )
+  Defineix dos objectes de classe Alumne
+
+
