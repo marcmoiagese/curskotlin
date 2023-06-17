@@ -19,5 +19,14 @@ Si volem cridar el mètodes des de dins de la mateixa classe, ho tenim que fer d
 ```kotlin
 this.[nom del mètode]
 ```
+O també ho podem fer de la maera curta
+
+```kotlin
+[nom del mètode]
+```
 
 Es importan recordar que només es pot cridar així quan estem dins de la mateixa classe.
+
+## [Exemple1]()
+
+Crearem la classe Operacions que en un mètode demani la càrrega de 2 enters i posteriorment cridi a uns altres 2 mètodes que calculin la seva suma i producte.
