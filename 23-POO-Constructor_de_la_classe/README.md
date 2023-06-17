@@ -74,7 +74,7 @@ Desenvoluparem una classe anomenada Persona que tindra com a propietats el seu n
 A més a més, definirem dos metodes, un que imprimira les propietats i l'altre ens ensenyara si es major d'edat.
 
 
-## [Exemple2]()
+## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/23-POO-Constructor_de_la_classe/Exemple2/src/main/kotlin/Main.kt)
 
 Desenvoluparem una classe que carregara els costats d'un triangle i implenetara els següents mètodes:
 * Inicialitzara les propietats.
