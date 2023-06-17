@@ -34,4 +34,4 @@ Crearem la classe Operacions que en un mètode demani la càrrega de 2 enters i 
 ## Problema
 
 - Declara una classe anomenada Fills. Defineix dins de la mateixa un vector per enmagatzemar les edats de 5 persones.
-  * Defineix un mètode carregar on s'introdueixi per teclat el vector de les edats, i cridi a 2 metodes que imprimeixin el que tingui l'edat mes gran i el promig de les edats. [Solució](https://github.com/marcmoiagese/curskotlin/tree/master/24-POO-Crida_de_metodes_des_d_un_altre_metode_de_la_mateixa_classe/Problema1)
+  * Defineix un mètode carregar on s'introdueixi per teclat el vector de les edats, i cridi a 2 metodes que imprimeixin el que tingui l'edat mes gran i el promig de les edats. [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/24-POO-Crida_de_metodes_des_d_un_altre_metode_de_la_mateixa_classe/Problema1/src/main/kotlin/Main.kt)
