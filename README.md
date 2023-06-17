@@ -32,3 +32,4 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [20- Vectors: Concepte](https://github.com/marcmoiagese/curskotlin/tree/master/20-Vectors_conceptes)
 - [21- Funcions: Enviament de parametres i retorn de dades en vectors](https://github.com/marcmoiagese/curskotlin/tree/master/21-Funcions_parametres_i_retorn_del_tipus_de_vector)
 - [22- POO: Conceptes de programació orientada a objectes](https://github.com/marcmoiagese/curskotlin/tree/master/22-POO-Conceptes_de_programacio_orientada_a_objectes)
+- [23- POO: Constructor de la classe](https://github.com/marcmoiagese/curskotlin/tree/master/23-POO-Constructor_de_la_classe)
