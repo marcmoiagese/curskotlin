@@ -53,3 +53,9 @@ Crearem una classe anomenada Persona que tindra com a propietats ( variables ) e
 Definirem dos objectes de la clase Persona.
 
 
+## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/22-POO-Conceptes_de_programacio_orientada_a_objectes/Exemple2/src/main/kotlin/Main.kt)
+
+Fes una classe que carregui les dades d'un triangle i implementi els seguents metode:
+* Inicialitzar les propietats
+* Imprimir el valor del costat que sigui mes gran
+* I un metode que ens mostri si es equilater o no
