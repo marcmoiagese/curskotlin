@@ -8,7 +8,7 @@ A Kotlin, podem definir un metode que s'executi automaticament cada cop que inic
 * Te com a objectiu inicialitzar atributs.
 * Una classe pot tenir diversos constructors pero nomes un es el principal.
 
-## [Exemple1]()
+## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/23-POO-Constructor_de_la_classe/Esemple1/src/main/kotlin/Main.kt)
 
 Desenvoluparem una classe anomenada Persona que tindra com a propietats el seu nom i edat. Plantejarem un constructor al que li arribaran com a parametres el nom i l'edat.
 A més a més, definirem dos metodes, un que imprimira les propietats i l'altre ens ensenyara si es major d'edat.
