@@ -66,6 +66,6 @@ Fes una classe que carregui les dades d'un triangle i implementi els seguents me
   * Defineix els mètodes per inicialitzar les seves propietats per teclat.
   * Imprimeix les propietats
   * I imprimeix un missatge si esta regular ( mes gran o igual a 5 )
-  Defineix dos objectes de classe Alumne
+  Defineix dos objectes de classe Alumne ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/22-POO-Conceptes_de_programacio_orientada_a_objectes/Problema1/src/main/kotlin/Main.kt) )
 
 
