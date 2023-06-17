@@ -68,6 +68,21 @@ class cotxe (var color: String,var portes: Int){
     }
 ```
 
+### Definició de multiples constructors.
+
+Cuan definim un altre constructor a més a més del principal de la classe, s'ha d'implementar obligatoriament amb la paraula clau constructor, els seus paràmetres i la crida obligatoria al constructor prinipal de la classe. Eengloban l'algoritme que executarà entre claus.
+
+```kotlin
+class cotxe (var color: String,var portes: Int){
+
+      constructor():this("",0){
+	print("De quin color es el cotxe? ")
+	color = readln().toString()
+	print("Cuantes portes te? ")
+	portes  = readln().toInt()	
+      }
+```
+
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/23-POO-Constructor_de_la_classe/Esemple1/src/main/kotlin/Main.kt)
 
 Desenvoluparem una classe anomenada Persona que tindra com a propietats el seu nom i edat. Plantejarem un constructor al que li arribaran com a parametres el nom i l'edat.
