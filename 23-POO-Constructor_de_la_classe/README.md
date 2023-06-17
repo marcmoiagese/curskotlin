@@ -125,7 +125,7 @@ Farem una classe que carregui els costats d'un triangle, pero aquest cop, amb do
   * Imprimir el nom i la nota
   * Imprimir un missatge si la nota es superior o igual a 5 indican que esta aprobat
   * Defineix dos objectes de la classe Alumne
-  [Solució]()
+  [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/23-POO-Constructor_de_la_classe/Problema1/src/main/kotlin/Main.kt)
 
 
 - Fes una classe que representi un punt en un plà, la coordenada del punt sobre el plà es defineix entre dos valors x i y. Al constructor se li enviarà les coordenades del punt x i de y.
