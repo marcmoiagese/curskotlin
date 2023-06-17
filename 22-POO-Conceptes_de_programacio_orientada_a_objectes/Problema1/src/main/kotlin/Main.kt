@@ -8,14 +8,14 @@
  */
 
 class Alumne(){
-    var nom = ""
-    var nota = 0
+    var nom: String = ""
+    var nota: Int = 0
 
     fun inicialitza(){
         println("Introdueix el nom: ")
         nom = readln().toString()
 
-        println("Dona'm la nota")
+        println("Dona'm la nota: ")
         nota = readln().toInt()
     }
 
