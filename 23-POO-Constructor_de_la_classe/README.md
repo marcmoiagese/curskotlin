@@ -112,6 +112,13 @@ Desenvoluparem una classe que carregara els costats d'un triangle i implenetara 
 * Imprimira el valor del costat que sigui mes gran.
 * Ens mostrarà si es equilater o no.
 
+## [Exemple3](https://github.com/marcmoiagese/curskotlin/blob/master/23-POO-Constructor_de_la_classe/Exemple3/src/main/kotlin/Main.kt)
+
+Farem una classe que carregui els costats d'un triangle, pero aquest cop, amb dos constructors. I amb els seguents metodes:
+* Inicialitzar les propietatsi.
+* Imprimirem el costat mes grani.
+* Indicar si es equilater o no.
+
 ## Problemes
 
 - Crea una classe anomenada Alumne que tingui com a propietats el seu nom i nota. Al constructor li arriva el seu nom i la seva nota.
