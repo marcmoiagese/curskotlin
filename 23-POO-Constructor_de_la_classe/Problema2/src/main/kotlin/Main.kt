@@ -13,14 +13,12 @@
 
 class punt(var X: Int, var Y: Int){
 
-    fun onCaraiEts(){
-        when{
+    fun onCaraiEts() = when {
             X > 0 && Y > 0 -> println("1er Cuadrant")
             X < 0 && Y > 0 -> println("2on Cuadrant")
             X < 0 && Y < 0 -> println("3er Cuadrant")
             X > 0 && Y < 0 -> println("4rt Cuadrant")
             else -> println("A un dels eixos")
-        }
     }
 }
 
