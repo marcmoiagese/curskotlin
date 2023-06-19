@@ -12,7 +12,7 @@ El primer que farem es identificar les classes. Podríam dir que hi ha dos class
 
 Després definir les propietats i mètodes que tindra cada classe
 
-```css
+```txt
  Cloent
       Propietats
            Nom
@@ -29,4 +29,24 @@ Després definir les propietats i mètodes que tindra cada classe
            Diposits totals
 ```
 
+## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/25-POO-Colaboracio_de_classes/Exemple2/src/main/kotlin/Main.kt)
 
+Fes un programa que permeti jugar a daus. Les regles del joc son:
+
+Es tiraran tres daus, si els tres surten amb el mateix valor ensenyar un missatge que posi "Has guanyat", sino "has perdut".
+
+El primer que fem es identificar les classes i despres les propietats i els mètodes
+
+```txt
+ Dau
+      propietats
+          valor
+      metodes
+          tirar
+          imprimir
+ JocDeDaus
+      propietats
+          3 daus ( 3 objectes de dau )
+      metode
+          jugar
+```
