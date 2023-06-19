@@ -34,3 +34,4 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [22- POO: Conceptes de programació orientada a objectes](https://github.com/marcmoiagese/curskotlin/tree/master/22-POO-Conceptes_de_programacio_orientada_a_objectes)
 - [23- POO: Constructor de la classe](https://github.com/marcmoiagese/curskotlin/tree/master/23-POO-Constructor_de_la_classe)
 - [24- POO: Crida de mètodes desde un altre mètode de la mateixa classe](https://github.com/marcmoiagese/curskotlin/tree/master/24-POO-Crida_de_metodes_des_d_un_altre_metode_de_la_mateixa_classe)
+- [25- POO: Colaboració de classes](https://github.com/marcmoiagese/curskotlin/tree/master/25-POO-Colaboracio_de_classes)
