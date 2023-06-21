@@ -4,6 +4,20 @@ Kotlin es un llenguatge de programació bastant nou, desenvolupat per l'empresa 
 
 Com que es genera un codi intermig per ser interpretat per la JVM, ens permet interactuar facilment amb llibreries escrites per java.
 
+També nesecitarem instalar Kotlin, que podem fent-ho seguin les propies instruccons de la seva [documentació](https://kotlinlang.org/docs/command-line.html#manual-install)
+
+Això ens instalara el compilador kotlinc que ens permetrà compilar el codi des de consola.
+
+```bash
+kotlinc hello.kt -include-runtime -d hello.jar
+```
+
+I després ja podem executar el programa a través de java.
+
+```bash
+java -jar hello.jar
+```
+
 Per poder comensar amb Kotlin, primer hem d'instalar [JDK](https://www.oracle.com/java/technologies/downloads/)
 
 Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?fromMenu#chooseYourEdition) per comensar amb kotlin que disposa de la verió Community, que es gratuita.
