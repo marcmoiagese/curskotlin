@@ -36,3 +36,4 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [24- POO: Crida de mètodes desde un altre mètode de la mateixa classe](https://github.com/marcmoiagese/curskotlin/tree/master/24-POO-Crida_de_metodes_des_d_un_altre_metode_de_la_mateixa_classe)
 - [25- POO: Colaboració de classes](https://github.com/marcmoiagese/curskotlin/tree/master/25-POO-Colaboracio_de_classes)
 - [26- POO: Modificadors d'acces privat i public](https://github.com/marcmoiagese/curskotlin/tree/master/26-POO-Modificadors_d_acces_privat_i_public)
+- [27- POO: Propietats i els seus mètodes opcionals set i get](https://github.com/marcmoiagese/curskotlin/tree/master/27-POO-Propietats_i_els_seus_metodes_opcionals_set_i_get)
