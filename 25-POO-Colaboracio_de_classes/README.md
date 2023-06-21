@@ -50,3 +50,12 @@ El primer que fem es identificar les classes i despres les propietats i els mèt
       metode
           jugar
 ```
+
+## Problemes
+
+Fes una classe Club i una classe Soci
+  * La classe soci te que tenir les seguents propietats: nom i l'antiguitat al club en anys
+  * El constructor de la classe soci fa que arribi el nom i la seva antiguitat.
+  * La classe  club ha de tenir com a propietats 3 objectes de la classe soci.
+  * Defineix un mètode de la classe club per imprimir el nomm del soci amb mes antiguitat al club
+  * Imprimeix tambe el nom des socis ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/25-POO-Colaboracio_de_classes/Problema1/src/main/kotlin/Main.kt) ) 
