@@ -37,5 +37,5 @@ Crea una classe Dau. Defineix una propietat privada anomenada valor i tres metod
 
 ## Problemes
 
-Fes una classe que defineixi una propietat privada de tipus vector de 5 enters. Al bloc init cridar a un mètode provat que carregui valors aleatoris compresos entre 0 i 10.
-Definir tres metodes publics mes que mostrin el vector, l'element mes gran i l'element mes petit. i ( [Solucio]() )
+Fes una classe que defineixi una propietat privada de tipus vector de 5 enters. Al bloc init cridar a un mètode privat que carregui valors aleatoris compresos entre 0 i 10.
+Definir tres metodes publics mes que mostrin el vector, l'element mes gran i l'element mes petit. ( [Solucio]() )
