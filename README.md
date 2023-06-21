@@ -52,3 +52,4 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [26- POO: Modificadors d'acces privat i public](https://github.com/marcmoiagese/curskotlin/tree/master/26-POO-Modificadors_d_acces_privat_i_public)
 - [27- POO: Propietats i els seus mètodes opcionals set i get](https://github.com/marcmoiagese/curskotlin/tree/master/27-POO-Propietats_i_els_seus_metodes_opcionals_set_i_get)
 - [28- POO: data class](https://github.com/marcmoiagese/curskotlin/tree/master/28-POO-data_class)
+- [29- POO: enum class](https://github.com/marcmoiagese/curskotlin/tree/master/29-POO-enum_class)
