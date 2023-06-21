@@ -146,3 +146,7 @@ Declararem un *data class* anomenat Article que enmagatzema el codi del producte
 ## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/28-POO-data_class/Exemple2/src/main/kotlin/Main.kt)
 
 Declararem un data class anomenat Persona que enmagatzemi el nom i l'edat. Sobreescriurem el mètode toString per retornar un String amb la concatenació del nom i l'edat separan per una coma.
+
+## Problemes
+
+- Planteja una Data class que es digui Dau amb una unica propietat anomenada valor. Sobreescriu el mètode toString per que ensenyi tants asteriscs com indigui la propietat valor. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/28-POO-data_class/Problema1/src/main/kotlin/Main.kt) )
