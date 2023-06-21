@@ -31,4 +31,11 @@ D'altra banda, la paraula public, no es necessaria, ja que es el valor per defec
 
 En aquest cas, crearem una classe anomenada Operacions, que en un mètode soliciti la carrega de 2 entorns i posteriorment, cridi desde el mateix mètode a dos mètodes mes que siguin privats i que calculin el seu producte.
 
+## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/26-POO-Modificadors_d_acces_privat_i_public/Exemple2/src/main/kotlin/Main.kt)
 
+Crea una classe Dau. Defineix una propietat privada anomenada valor i tres metodes, un privat que dibuixi una linea d'asteriscos, i dos mes públics. un que generi un numero aleatori entre 1 i 6 i un altre que l'imprimeixi cridan finalment al que dibuixa la línea d'asteriscos.
+
+## Promlemes
+
+Fes una classe que defineixi una propietat privada de tipus vector de 5 enters. Al bloc init cridar a un mètode provat que carregui valors aleatoris compresos entre 0 i 10.
+Definir tres metodes publics mes que mostrin el vector, l'element mes gran i l'element mes petit. i ( [Solucio]() )
