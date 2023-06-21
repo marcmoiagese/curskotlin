@@ -35,7 +35,7 @@ En aquest cas, crearem una classe anomenada Operacions, que en un mètode solici
 
 Crea una classe Dau. Defineix una propietat privada anomenada valor i tres metodes, un privat que dibuixi una linea d'asteriscos, i dos mes públics. un que generi un numero aleatori entre 1 i 6 i un altre que l'imprimeixi cridan finalment al que dibuixa la línea d'asteriscos.
 
-## Promlemes
+## Problemes
 
 Fes una classe que defineixi una propietat privada de tipus vector de 5 enters. Al bloc init cridar a un mètode provat que carregui valors aleatoris compresos entre 0 i 10.
 Definir tres metodes publics mes que mostrin el vector, l'element mes gran i l'element mes petit. i ( [Solucio]() )
