@@ -42,3 +42,9 @@ Es importan entendre, que aquets metodes també es criden cuan definim un object
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/27-POO-Propietats_i_els_seus_metodes_opcionals_set_i_get/Exemple1/src/main/kotlin/Main.kt)
 
 Declarar una classe anomenada Persona amb dues propietats que enmagatzemin el nom i l'edat de la persona. A la propietat nom, enmagatzemar sempre en majuscula el nom i quan es recuperi el seu valor retornarlo entre parèntesis. també controlar que no es pugui introduir una edat amb un valor negatiu, si això passa, guardar 0.
+
+## Problemes
+
+Fes una classe que representi un treballador. Defineix com a propietats el seu nom i el seu salari.
+- No permetis que el salari sigui un valor negatiu.
+- Fes un metode imprimir dins la classe. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/27-POO-Propietats_i_els_seus_metodes_opcionals_set_i_get/Problema1/src/main/kotlin/Main.kt) )
