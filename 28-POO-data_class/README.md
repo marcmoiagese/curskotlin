@@ -1,4 +1,4 @@
-# 29- POO: data class
+# 28- POO: data class
 
 Hem parlat que una classe encapsula un conjunt de funcionalitats (mètodes) i dades (propietats)
 
