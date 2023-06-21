@@ -9,13 +9,13 @@ També nesecitarem instalar Kotlin, que podem fent-ho seguin les propies instruc
 Això ens instalara el compilador kotlinc que ens permetrà compilar el codi des de consola.
 
 ```bash
-kotlinc hello.kt -include-runtime -d hello.jar
+kotlinc hola.kt -include-runtime -d hola.jar
 ```
 
 I després ja podem executar el programa a través de java.
 
 ```bash
-java -jar hello.jar
+java -jar hola.jar
 ```
 
 Per poder comensar amb Kotlin, primer hem d'instalar [JDK](https://www.oracle.com/java/technologies/downloads/)
