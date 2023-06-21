@@ -54,13 +54,95 @@ També podem comparar data classes a traves de condicionals, si comparem dos dat
 
 Hem comentat que al declarar un data class, ja heredem una serie de mètodes que ens son utils per, despres poder processar els objectes que definim, d'aquella classe. 
 
-A Kotlin, podem sobreescriure cualsevol dels mètodes que ens proveeix un data class i definir un nou algoritme del mateix.
+A Kotlin, podem sobreescriure cualsevol dels mètodes que ens proveeix un data class i definir un nou algoritme del mateix. Per poder fer-ho, declarem la data class i dins d'aquesta amb override midifiquem el comportament del mètode desitjat.
 
+```kotlin
+data class nomDelDataClass(val var1: Int, var var2: String)
+     override fun toString(): String{
+	return "El que ens doni la gana"
+     }
+}
+``` 
+
+## Propietats declarades dins el cos de la classe
+
+```kotlin
+data class Jugador(val nom:String){
+    var punts:Int=0
+}
+
+fun main(){
+    val jugador1=Jugador("Pere")
+    val jugador2=Jugador("Pere")
+    jugador1.punts=10
+    jugador2.punts=20
+    if(jugador1==jugadior2)
+        println("Els dos jugadors tenen el mateix nom")
+    else
+        println("Els jugadors no tenen el mateix nom")
+}
+```
+
+Si executessim l'exemple el if donaria TRUE, això passa per que nomes te en compte les propietats definides dins el constructor primari de la classe. En aquest cas nom. Tot i que podem tenir altres propietats dins el data class, només les propietats definides dins el constructor principal es tindran en compte als mètodes: toString(), equals(), hashCode(), copy().
+
+## Desestructuració de data class
+
+Podem extreure algunes propietats d'un data class amb una sintaxis senzilla
+
+```kotlin
+data class cercle(val x: Int, val y: Int, val radi: Int)
+
+fun main(){
+  val cercle1 = Cercle(10,3,40)
+  val (centrex, centrey) = cercle1
+  println("Punt central del cercle ($centrex,$centrey)")
+}
+```
+
+com pots veure a l'exemple, podem extreure el valor de les dues primeres propietats de la data class assignat a dues variables.
+
+```kotlin
+  val (centrex, centrey) = cercle1
+```
+
+
+### Mètode componentN
+
+El compilador de Kotlin crea un  mètode per cada una de les propietats definides dins el constructor, despres cada mètode te un nom 'component' seguit d'un numero que representa la posició durant la seva declaració.
+
+```kotlin
+data class cercle(val x: Int, val y: Int, val radi: Int)
+
+fun main(){
+  val cercle1 = cercle(10,3,40)
+  val centrex=cercle1.component1()
+  val centrey=cercle1.component2()
+  val radi=cercle1.component3()
+  println("$centrex $centrey $radi")
+}
+```
+No te massa sentit cridar els mètodes a través de componentX, pero son indispensables cuan volem recorrer un vector amb un for i desestructurar les seves propietats, ja que la instrucció for els requereix.
+
+```kotlin
+data class cercle(val x: Int, val y: Int, val radi: Int)
+
+fun main(){
+  val cercles = arrayOf<cercle>(
+    cercle(20,6,50)
+    cercle(10,3,40)
+    cercle(30,9,10) 
+  )
+  
+  for ( (x,y,radi) in cercles)
+     println("Coordenada x=$x, coordenada y=$y, radi=$radi")
+```
+
+Les variables x,y i radi guarden els valors retornats per component1(), component2() y component3().
 
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/28-POO-data_class/Exemple1/src/main/kotlin/Main.kt)
 
 Declararem un *data class* anomenat Article que enmagatzema el codi del producte, la seva descripció i preu. Després definirem diferents objectes d'aquesta classe des de main.
 
-## [Exemple2]()
+## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/28-POO-data_class/Exemple2/src/main/kotlin/Main.kt)
 
 Declararem un data class anomenat Persona que enmagatzemi el nom i l'edat. Sobreescriurem el mètode toString per retornar un String amb la concatenació del nom i l'edat separan per una coma.
