@@ -48,3 +48,7 @@ Declarar una classe anomenada Persona amb dues propietats que enmagatzemin el no
 Fes una classe que representi un treballador. Defineix com a propietats el seu nom i el seu salari.
 - No permetis que el salari sigui un valor negatiu.
 - Fes un metode imprimir dins la classe. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/27-POO-Propietats_i_els_seus_metodes_opcionals_set_i_get/Problema1/src/main/kotlin/Main.kt) )
+
+Crea una classe anomenada Dau, que tingui una propietat anomenada valor  que permeti carregar un valor compres entre 1 i 6. Si rep un valor que no esa dins el rang tornar 1.
+- Definir dos mètodes, un que generi un numero aleatori entre 1 i 6 i l'altre que imprimeixi.
+- Al constructor li arriba el valor inicial que te que tenir el dau. ( intentar enviarli el numero 7) ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/27-POO-Propietats_i_els_seus_metodes_opcionals_set_i_get/Problema1/src/main/kotlin/Main.kt) )
