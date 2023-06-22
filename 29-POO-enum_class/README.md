@@ -50,7 +50,41 @@ Com pots veure cada propietat de l'enum class, tè assignat el valor de la propi
 
 Aquest mètode, depenen del que tingui enmagatzemat la propietat "colo" enmagatzemara a la variable "descripcioDelColor" el valor respectiu.
 
+Una altra cosa importan que podem extreure d'una enum class, es la posició de una constant dins la classe, es a dir al exemple anterior "GORRI" tindria el valor 0m "BERDE" el 1 i URDINA el 2. Això ens permet coses com recorrer amb un for totes les constants
 
+```kotlin
+    for(element in Color.descripcio()) {
+        println(element)
+    }
+```
+
+Amb ValueOf podem passar un Strung amb una constant i ens retornarà una referencia a la constant.
+
+```kotlin
+enum class Color(val descripcio: String) {
+    GORRI("vermell"),
+    BERDE("verd"),
+    URDINA("blau")
+}
+
+fun main(param: Array<String>) {
+    val colo1 = Color.valueOf("BERDE")
+    println(colo1)               // RESTA
+    println(colo1.descripcio)    // -
+    println(colo1.ordinal)       // 1
+}
+```
+
+També es importan tenir en compte que com que cada constant es un objecte, podem sobreescriure el mètode toString i fer que retorni una cadena diferent al nom de la constant de la mateixa manera que em vist amb les data class
+
+podríam obtenir una de les constants de forma aleatoria d'aquesta manera
+
+```kotlin
+fun main(param: Array<String>) {
+    val colo1 = Color.values().random()
+    print(colo1)
+}
+```
 
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/29-POO-enum_class/Exemple1/src/main/kotlin/Main.kt)
 
@@ -61,3 +95,8 @@ Definirem una classe carta que tingui una propietat de la classe enum class.
 
 Declararem una enum class que representi les cuatre operacions bàsiques, asociarem a cada constant un String amb el signe de l'operació.
 També definirem una classe Operacio que definirà tre propietats, les dos primeres tenen que ser els numeros i la tercera el tipus d'operació
+
+## Problemes
+
+Defineix una enum class que guardi com a constant els noms de diferents paisos europeus, i com a propietat per a cada pais, la cantitat d'habitans que tè.
+Defineix una variable d'aquest tipus i imprimeix la constant i la cantitat d'habitans de d'aquesta variable. ( [Solucio]() )
