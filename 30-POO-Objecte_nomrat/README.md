@@ -18,3 +18,9 @@ Per poder definir objectes nombrats que no siguin globals com el descrit al [exe
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/tree/master/30-POO-Objecte_nomrat)
 
 En aquest exemple definirem un objecte que es dira Mates amb una propietat que tindra el valor de PI i un metode que retorni un valor aleatori en un rang determinat
+
+## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/30-POO-Objecte_nomrat/Exemple2/src/main/kotlin/Main.kt)
+
+Crearem un objecte local dins de la funció main que permeti tirar 5 daus i guardi aquets valors dins un vector. Definirem una propietat que guardi 2 enters i tres mètodes
+Un que carregui els 5 elements del vector amb valors aleatoris compresos entre 1 i 6.
+Un altre que imprimeixi el vector i finalment un altre que retorni el valor mes gran del vector.
