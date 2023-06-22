@@ -99,4 +99,4 @@ També definirem una classe Operacio que definirà tre propietats, les dos prime
 ## Problemes
 
 Defineix una enum class que guardi com a constant els noms de diferents paisos europeus, i com a propietat per a cada pais, la cantitat d'habitans que tè.
-Defineix una variable d'aquest tipus i imprimeix la constant i la cantitat d'habitans de d'aquesta variable. ( [Solucio]() )
+Defineix una variable d'aquest tipus i imprimeix la constant i la cantitat d'habitans de d'aquesta variable. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/29-POO-enum_class/Problema1/src/main/kotlin/Main.kt) )
