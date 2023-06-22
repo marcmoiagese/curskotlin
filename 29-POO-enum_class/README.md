@@ -27,7 +27,7 @@ Igual que les classes comuns, les enum class poden tenir propietats definides al
 Declararem una enum class amb els noms de cartes del model ingles.
 Definirem una classe carta que tingui una propietat de la classe enum class.
 
-## [Exemple2]()
+## [Exemple2](https://github.com/marcmoiagese/curskotlin/blob/master/29-POO-enum_class/Exemple2/src/main/kotlin/Main.kt)
 
 Declararem una enum class que representi les cuatre operacions bàsiques, asociarem a cada constant un String amb el signe de l'operació.
 També definirem una classe Operacio que definirà tre propietats, les dos primeres tenen que ser els numeros i la tercera el tipus d'operació
