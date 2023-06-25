@@ -15,6 +15,19 @@ per accedir als seus mètodes o propietats o podem fer com ho hem fet fins ara.
 
 Per poder definir objectes nombrats que no siguin globals com el descrit al [exemple 1](https://github.com/marcmoiagese/curskotlin/tree/master/30-POO-Objecte_nomrat) sino que estiguin definits dins una funció. Hem de definir una variable local i un objecte anònim ( es a dir, sense nom )
 
+Per a definir un objecte local a una funció ha de ser anonim, es a dir, no tindre nom despres de la paraula clau object. El que tenim que fer es assignar el valor retornat per object a una variable.
+
+```kotlin
+val nmodelaVariable = object {
+```
+
+Després podem accedir a les propietats i metodes des de la variable.
+
+```kotlin
+nmodelaVariable.Metode()
+nmodelaVariable.Propietat
+```
+
 ## [Exemple1](https://github.com/marcmoiagese/curskotlin/tree/master/30-POO-Objecte_nomrat)
 
 En aquest exemple definirem un objecte que es dira Mates amb una propietat que tindra el valor de PI i un metode que retorni un valor aleatori en un rang determinat
