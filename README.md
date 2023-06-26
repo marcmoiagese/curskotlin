@@ -57,3 +57,4 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [31- POO: Herencia](https://github.com/marcmoiagese/curskotlin/tree/master/31-POO-Herencia)
 - [32- POO: Herència classes abstractes](https://github.com/marcmoiagese/curskotlin/tree/master/32-POO-Herencia_classes_abstractes)
 - [33- POO: Declaració i implementació d'interficies](https://github.com/marcmoiagese/curskotlin/tree/master/33-POO-Declaracio_i_implementacio_d_interficies)
+- [34- POO: Vectors amb objectes](https://github.com/marcmoiagese/curskotlin/tree/master/34-POO-Vectors_amb_Objectes)
