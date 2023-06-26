@@ -84,6 +84,64 @@ Ratoi "es un" DispositiuDeEntrada
 Suma "es una" Operacio
 ```
 
+Un cop explicat això, podem explicar que a Kotlin, per crear una classe heredable es fa posant open daban de class:
+
+```kotlin
+open class SocUnaClasse(val valor: String, val edat: Int){}
+```
+
+Cuan definim una classe open hem de pensar seriament la definició de les seves propietats i mètodes, ja que si volem que un mètode es pugui reescriure en una subclasse hem de posar la paraula open també.
+
+```kotlin
+open class SocUnaClasse(val valor: String, val edat: Int){
+	open fun socunmetode(){
+	}
+}
+```
+
+Cuan es fagin crides al objecte des del main o un altre, no afecta en res, tot segueix funcionan de la mateixa manera. El que cambia ho podem veure millor al següent exemple:
+
+```kotlin
+open class Vehicle(val marca: String, val anyFabricacio: Int) {
+    open fun accelerar() {
+        println("El vehicle s'està accelerant.")
+    }
+
+    open fun frenar() {
+        println("El vehicle està frenant.")
+    }
+}
+
+class Cotxe(marca: String, anyFabricacio: Int, val model: String) : Vehicle(marca, anyFabricacio) {
+    override fun accelerar() {
+        println("El cotxe $marca $model s'està accelerant.")
+    }
+
+    override fun frenar() {
+        println("El cotxe $marca $model està frenant.")
+    }
+
+    fun aparcar() {
+        println("El cotxe $marca $model està aparcant.")
+    }
+}
+
+fun main() {
+    val cotxe = Cotxe("Seat", 2022, "Ibiza")
+    cotxe.accelerar()
+    cotxe.frenar()
+    cotxe.aparcar()
+}
+```
+com pots veure, tenim una classe oberta que es diu Vehicle, que te dos propietats accelerar i aparcar, fins aqui a banda de la paraula open tot sembla igual a una classe com les que hem vist fins ara.
+
+El que podem veure nou es cuan declarem la classe Cotxe que rep tres parametres, com pots veure la tercera es una propietat anomenada model que l'estem definin com a nova ja que conté la paraula val. L'herencia la indiquem després dels dos punts, indican el nom de la classe  de la cual heredem i passan inmediatament despres les dades del constructor de la classe.
+
+Es a dir, la classe Cotxe te tres propietats, de les cuals dues son heredades i una es pròpia. Com que no hem posat open a la classe Cotxe, mes endavan no podrem declarar classes que heredin de la classe Cotxe. Si volguessim fer-ho nomes tindriam que posar-li la paraula open.
+
+també quan revem un mètode heredat podem sobreescriurel tal i com vam veure a les [data class](https://github.com/marcmoiagese/curskotlin/tree/master/28-POO-data_class), en aquest exemple sobreescrivim la sortida d'accelerar i frenar per adecuarles a la nova realitat d'aquesta classe. La crida de les classes heredades es igual no cambia res del que ja hem vist fins ara.
+
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/31-POO-Herencia/Exemple1/src/main/kotlin/Main.kt)
 
 El seguent exemple, plantejarem una classe Persona que contindrà dos propietats: nom i edat. Definirem com a responsabilitats que el constructor rebi el nom i l'edat.
