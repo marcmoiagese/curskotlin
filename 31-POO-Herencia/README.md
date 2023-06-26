@@ -152,7 +152,7 @@ També declararem una segona classe anomenada treballador que heredi de la class
 
 A la funció main també crearem un objecte de la classe treballador.
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/31-POO-Herencia/Exemple2/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Calculadora que rebi al constructor dos valors de tipo Double. Fes que la classe sigui oberta per que sigui heredable. Definire, les responsabilitats de sumar, restar, multiplicar, dividir i imprimir.
 
