@@ -1,4 +1,4 @@
-# 33- POO: Declaració i implementacií d'interficies.
+# 33- POO: Declaració i implementació d'interficies.
 
 Una interficie declara una serie de mètodes i propietats que tenen que ser implementades despres per una o mes classes, a Kotlin una interficie també pot tenir implementats mètodes.
 
