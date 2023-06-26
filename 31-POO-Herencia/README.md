@@ -27,4 +27,6 @@ classDiagram
 
   Vehicle <|-- Cotxe
   Vehicle <|-- Moto
+  Cotxe <|-- Seat
+  Cotxe <|-- Cupra
 ```
