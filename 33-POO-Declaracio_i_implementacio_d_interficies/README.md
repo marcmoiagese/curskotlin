@@ -59,12 +59,57 @@ Com pots observar, per declarar la interficie utilitzem la paraula "interface" s
 
 La síntaxis per indicar que una classe implementa una interfície es la mateixa que la herencia. Si una classe hereda una altra també pot implementar una o mes interficies separan per coma cada una de les interficies.
 
+Un Mètode o funció pot rebre com a parametre una intrficie. Després podem passar objectes de diferents classes que implementin aquesta interficie.
+
+```kotlin
+interface Forma {
+    fun calcularArea(): Double
+    fun obtenirNom(): String
+}
+
+class Rectangle(private val amplada: Double, private val alcada: Double) : Forma {
+    override fun calcularArea(): Double {
+        return amplada * alcada
+    }
+
+    override fun obtenirNom(): String {
+        return "Rectangle"
+    }
+}
+
+class Cercle(private val radi: Double) : Forma {
+    override fun calcularArea(): Double {
+        return Math.PI * radi * radi
+    }
+
+    override fun obtenirNom(): String {
+        return "Cercle"
+    }
+}
+
+fun imprimirDetallsForma(forma: Forma) {
+    val nomForma = forma.obtenirNom()
+    val areaForma = forma.calcularArea()
+    println("Detalls de la $nomForma:")
+    println("Àrea: $areaForma")
+}
+
+fun main() {
+    val rectangle = Rectangle(5.0, 3.0)
+    imprimirDetallsForma(rectangle)
+
+    val cercle = Cercle(2.5)
+    imprimirDetallsForma(cercle)
+}
+```
+
+En aquest exemple podem veure que la funcio "imprimirDetallsForma()" rep com a parametre forma que es de tipus Forma. Des de la funcií main, podem cridar a la funció imprimirDetallsForma() passan tan l'objecte rectangle com cercle. Això es possible ja que els dos objectes formen part de classes que implementen la interficie Forma.
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/33-POO-Declaracio_i_implementacio_d_interficies/Exemple1/src/main/kotlin/Main.kt)
 
 Definirem una interficie anomenada Punt que declarara un mètode anomenat imprimir. Despres declararem dues classes que la implementin.
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/33-POO-Declaracio_i_implementacio_d_interficies/Exemple2/src/main/kotlin/Main.kt)
 
 Si tenim la següent interficie:
 
