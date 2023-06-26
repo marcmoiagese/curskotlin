@@ -54,3 +54,5 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [28- POO: data class](https://github.com/marcmoiagese/curskotlin/tree/master/28-POO-data_class)
 - [29- POO: enum class](https://github.com/marcmoiagese/curskotlin/tree/master/29-POO-enum_class)
 - [30- POO: Objecte nombrat](https://github.com/marcmoiagese/curskotlin/tree/master/30-POO-Objecte_nomrat)
+- [31- POO: Herencia](https://github.com/marcmoiagese/curskotlin/tree/master/31-POO-Herencia)
+- [32- POO: Herència classes abstractes](https://github.com/marcmoiagese/curskotlin/tree/master/32-POO-Herencia_classes_abstractes)
