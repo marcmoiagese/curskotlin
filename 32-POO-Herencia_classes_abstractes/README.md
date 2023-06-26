@@ -54,6 +54,8 @@ class Cercle(nom: String, val radi: Double) : Forma(nom) {}
 
 Finalment, com pots veure al main, podem definir objectes de Cercle o Rectangle, pero no de la classe abstracta.
 
+Podem accedir als mètodes de la classe abstracta des de dins de les sub classes amb "super"
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/32-POO-Herencia_classes_abstractes/Exemple1/src/main/kotlin/Main.kt)
 
 Declararem una classe abstracta que representi una operació. Definirem a la mateixa tres propietats. valor1, valor2 i resultat, i dos mètodes, calcular i imprimir.
