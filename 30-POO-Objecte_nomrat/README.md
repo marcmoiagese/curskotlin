@@ -44,4 +44,4 @@ Defineix un objecte nombrat:
 ```kotlin
 object mesGran {
 ```
-Amb tres mètodes anomenats "maxim" amb dos parametres cada un. Els mètodes es diferenciaran en que un rep dades de tipus Int. Un altre de tipus Float i finalment l'ultim rep dades de tipus Double. Els tres mètodes tenen que retornar la dada mes gran que reben. ( [Solució]() ]
+Amb tres mètodes anomenats "maxim" amb dos parametres cada un. Els mètodes es diferenciaran en que un rep dades de tipus Int. Un altre de tipus Float i finalment l'ultim rep dades de tipus Double. Els tres mètodes tenen que retornar la dada mes gran que reben. ( [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/30-POO-Objecte_nomrat/Problema1/src/main/kotlin/Main.kt) ]
