@@ -66,3 +66,22 @@ classDiagram
 El primer tipus de relació que hem vist entre dos classes era de colaboració. Recordem que es quan una classe contè un objecte d'una altra clase com atribut.
 
 Cuan la relacio entre dos classes es del tipus "... te un ..." o "... es part de ...", no hem d'implementar herencia. Ja que estem daban una relació de colaboració de classes no d'hererncia.
+
+Si tenim una classeA i una classeB i notem que entre elles existeis algun tipus de relació tipo "... tenen un ..." tampoc hem d'implementar herencia sino declarar la classeA un atribut de la classeB
+
+Per exemple: tenim una classe cotxe, una classe roda i una classe volant. veiem que la relació entre elles es: Cotxe "... te 4..." Rodes, volant "... es part de ..." cotxe. Pero la classe cotxe no te que derivar ni de roda ni volant de cotxe perque la relació no es de tipus-subtipus sino de colaboració.
+
+Hem de declarar a la classe cotxe 4 atributs de tipus roda i un de tipus volant.
+
+Després, si veiem que dos classes responen a la pregunta classeA "..es un.." ClasseB es possible que hi hagi una relació d'eherencia
+
+per exemple
+
+```txt
+Cotxe "es un" vehilce
+Cercle "es una" figura
+Ratoi "es un" DispositiuDeEntrada 
+Suma "es una" Operacio
+```
+
+## [Exemple 1]()
