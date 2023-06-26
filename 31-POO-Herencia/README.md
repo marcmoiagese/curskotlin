@@ -141,6 +141,7 @@ Es a dir, la classe Cotxe te tres propietats, de les cuals dues son heredades i 
 
 també quan revem un mètode heredat podem sobreescriurel tal i com vam veure a les [data class](https://github.com/marcmoiagese/curskotlin/tree/master/28-POO-data_class), en aquest exemple sobreescrivim la sortida d'accelerar i frenar per adecuarles a la nova realitat d'aquesta classe. La crida de les classes heredades es igual no cambia res del que ja hem vist fins ara.
 
+Si definim una propietat, si auqesta es public, sera accesible des de les subclasses, pero si es private no. Hi ha una tercera propietat anomenada protected, que ens permet que una subclasse tingui acces a la propietat pero que no es tingui acces des d'on definim l'objecte d'aquella classe.
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/31-POO-Herencia/Exemple1/src/main/kotlin/Main.kt)
 
@@ -157,3 +158,8 @@ A la funció main també crearem un objecte de la classe treballador.
 Declararem una classe anomenada Calculadora que rebi al constructor dos valors de tipo Double. Fes que la classe sigui oberta per que sigui heredable. Definire, les responsabilitats de sumar, restar, multiplicar, dividir i imprimir.
 
 Després declararem una classe anomenada CalculadoraCientifica que heredara Calculadora i li afegira les responsabilitats de calcular el cuadrat del primer numero i l'arrel cuadrada.
+
+## Problemes
+
+- Declarar una classe Dau que generi un valor aleatori entre 1 i 6, mostrar el seu valor. Crear una segona classe anomenada DauRecuadre que generi un valor entre 1 i 6, imprimir el valor dins un recuadre format per asteriscs.
+  S'ha d'utilitzar l'herencia entre classes ( [Solució]() )
