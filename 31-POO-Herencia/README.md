@@ -24,9 +24,45 @@ classDiagram
   class Moto
   class Seat
   class Cupra
+  class Autocar
 
   Vehicle <|-- Cotxe
   Vehicle <|-- Moto
   Cotxe <|-- Seat
   Cotxe <|-- Cupra
 ```
+
+Sempre cap avall a la jerarquía hi ha una espacialització. Les subclasses afegeixen noves propietats i mètodes.
+
+Imaginem ara la classe software. Quines podem derivar d'ella?
+
+```mermaid
+classDiagram
+   class Software
+   class daplicacio
+   class debase
+   class processadorDeText
+   class fullDeCalcul
+   class sistemaOperatiu
+   class word
+   class OpenoficeWritter
+   class Excel
+   class Lotus
+   class Linux
+   class Windows
+
+   Software <|-- daplicacio
+   Software <|-- debase
+   daplicacio <|-- processadorDeText
+   daplicacio <|-- fullDeCalcul
+   processadorDeText <|-- word
+   processadorDeText <|-- OpenoficeWritter
+   fullDeCalcul <|-- Excel
+   fullDeCalcul <|-- Lotus
+   debase <|-- sistemaOperatiu
+   sistemaOperatiu <|-- Linux
+   sistemaOperatiu <|-- Windows
+```
+El primer tipus de relació que hem vist entre dos classes era de colaboració. Recordem que es quan una classe contè un objecte d'una altra clase com atribut.
+
+Cuan la relacio entre dos classes es del tipus "... te un ..." o "... es part de ...", no hem d'implementar herencia. Ja que estem daban una relació de colaboració de classes no d'hererncia.
