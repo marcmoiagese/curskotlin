@@ -1,5 +1,3 @@
-import java.awt.Rectangle
-
 /**
  * Donada la seguent interficie, Definirem dues classes que representin un cuadrat i un rectangle. Implementarem la interficie figura a ambdues classes
  */
