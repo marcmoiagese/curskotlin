@@ -37,3 +37,11 @@ En aquest exemple definirem un objecte que es dira Mates amb una propietat que t
 Crearem un objecte local dins de la funció main que permeti tirar 5 daus i guardi aquets valors dins un vector. Definirem una propietat que guardi 2 enters i tres mètodes
 Un que carregui els 5 elements del vector amb valors aleatoris compresos entre 1 i 6.
 Un altre que imprimeixi el vector i finalment un altre que retorni el valor mes gran del vector.
+
+## Problemes
+
+Defineix un objecte nombrat: 
+```kotlin
+object mesGran {
+```
+Amb tres mètodes anomenats "Màxim" amb dos parametres cada un. Els mètodes es diferenciaran en que un rep dades de tipus Int. un altre de tipus Float i finalment l'ultim rep dades de tipus. Els tres mètodes tenen que retornar la dada mes gran que reben. ( [Solució]() ]
