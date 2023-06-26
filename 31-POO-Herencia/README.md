@@ -1,4 +1,4 @@
-#31-  POO: Herència
+# 31-  POO: Herència
 
 Ja hem vist que dues classes poden estar relacionades colaboran entre elles. Es a dir, a una d'elles vam definir una propietat del tipus de l'altra. Ara veurem un altre tipus de relacio entre classes que es l'herencia.
 
