@@ -151,3 +151,9 @@ A la funció main del programa definirem un objecte de la classe persona i crida
 També declararem una segona classe anomenada treballador que heredi de la classe Persona i afegeixi una propietat salari i ensenyi si te que pagar impostos quan el salari superi els 1500
 
 A la funció main també crearem un objecte de la classe treballador.
+
+## [Exemple 2]()
+
+Declararem una classe anomenada Calculadora que rebi al constructor dos valors de tipo Double. Fes que la classe sigui oberta per que sigui heredable. Definire, les responsabilitats de sumar, restar, multiplicar, dividir i imprimir.
+
+Després declararem una classe anomenada CalculadoraCientifica que heredara Calculadora i li afegira les responsabilitats de calcular el cuadrat del primer numero i l'arrel cuadrada.
