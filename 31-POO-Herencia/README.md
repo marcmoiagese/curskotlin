@@ -85,3 +85,11 @@ Suma "es una" Operacio
 ```
 
 ## [Exemple 1]()
+
+El seguent exemple, plantejarem una classe Persona que contindrà dos propietats: nom i edat. Definirem com a responsabilitats que el constructor rebi el nom i l'edat.
+
+A la funció main del programa definirem un objecte de la classe persona i cridarem els seus mètodes.
+
+També declararem una segona classe anomenada treballador que heredi de la classe Persona i afegeixi una propietat salari i ensenyi si te que pagar impostos quan el salari superi els 1500
+
+A la funció main també crearem un objecte de la classe treballador.
