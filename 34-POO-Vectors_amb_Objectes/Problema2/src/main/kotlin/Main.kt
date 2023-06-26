@@ -3,10 +3,10 @@
  * A la main definir un vector amb 5 objectes de tipus Dau. Tirar els 5 daus i imprimir els valors de cada un.
  */
 
-class Dau (val num: Int){
+class Dau (var num: Int = 1){
 
     fun tirar(){
-        return imprimir()
+        num = ((Math.random() * 6) + 1).toInt()
     }
 
     fun imprimir(){
@@ -15,14 +15,11 @@ class Dau (val num: Int){
 }
 
 fun main(args: Array<String>) {
-    val dau1: Array<Dau> = arrayOf(
-        Dau(5),
-        Dau(3),
-        Dau(2),
-        Dau(6),
-        Dau(1),
-    )
+    val dau1: Array<Dau> = arrayOf(Dau(), Dau(), Dau(), Dau(), Dau() )
 
     for (i in dau1)
         i.tirar()
+
+    for (i in dau1)
+        i.imprimir()
 }

@@ -72,11 +72,11 @@ data class Article(val codi: Int, val descripcio: String, var preu: Float)
 ```
 
 Definir un vector amb 4 elements de tipus Article
-Implementar dues funcions, una a la que li enviarem el vector i ens ensenyi tots els seus components, i l'latra que també rebi el vector d'articles i procedeixi a augmentar un 10% tots els productes.  ( [Solucio]() )
+Implementar dues funcions, una a la que li enviarem el vector i ens ensenyi tots els seus components, i l'latra que també rebi el vector d'articles i procedeixi a augmentar un 10% tots els productes.  ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/34-POO-Vectors_amb_Objectes/Problema1/src/main/kotlin/Main.kt) )
 
 
 ### 2
 
-Declarar una classe Dau que tingui com a propietat el seu valor i dos mètodes que permetin tirar el dau i imprimir el seu valo.
+Declarar una classe Dau que tingui com a propietat el seu valor i dos mètodes que permetin tirar el dau i imprimir el seu valor.
 A la main definir un vector amb 5 objectes de tipus Dau.
-Tirar els 5 daus i imprimir els valors de cada un. ( [Solucio]() )
+Tirar els 5 daus i imprimir els valors de cada un. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/34-POO-Vectors_amb_Objectes/Problema2/src/main/kotlin/Main.kt) )
