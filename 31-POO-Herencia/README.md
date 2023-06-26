@@ -84,7 +84,7 @@ Ratoi "es un" DispositiuDeEntrada
 Suma "es una" Operacio
 ```
 
-## [Exemple 1]()
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/31-POO-Herencia/Exemple1/src/main/kotlin/Main.kt)
 
 El seguent exemple, plantejarem una classe Persona que contindrà dos propietats: nom i edat. Definirem com a responsabilitats que el constructor rebi el nom i l'edat.
 
