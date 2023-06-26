@@ -66,4 +66,4 @@ Plantejarem dues classes anomenades suma i resta que heredin de la classe operac
 Declara una classe abstracta Compte, i dos subclasses CaixaEstalvis i PlasFixe. Defineix les propietats i mètodes comuns entre una caixa d'estalvis i un plaç fixe i agrupals en una classe Compta.
 
 Una caixa d'estalvis i un plaç fixe tenen un nom de titular i un monto. Un plaç fixe afegeix un plaç d'imposició en dies i una tasa de interés. Fer que la caixa d'estalvis no generi interessos.
-A la funció main del programa, definir un objecte de la clase CaixaEstalvis i un altre de la clase PlasFixe. ( [Solucio]() )
+A la funció main del programa, definir un objecte de la clase CaixaEstalvis i un altre de la clase PlasFixe. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/32-POO-Herencia_classes_abstractes/Exemple1/src/main/kotlin/Main.kt) )
