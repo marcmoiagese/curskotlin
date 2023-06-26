@@ -162,4 +162,4 @@ Després declararem una classe anomenada CalculadoraCientifica que heredara Calc
 ## Problemes
 
 - Declarar una classe Dau que generi un valor aleatori entre 1 i 6, mostrar el seu valor. Crear una segona classe anomenada DauRecuadre que generi un valor entre 1 i 6, imprimir el valor dins un recuadre format per asteriscs.
-  S'ha d'utilitzar l'herencia entre classes ( [Solució]() )
+  S'ha d'utilitzar l'herencia entre classes ( [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/31-POO-Herencia/Problema1/src/main/kotlin/Main.kt) )
