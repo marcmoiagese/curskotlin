@@ -8,7 +8,7 @@ Les funcions d'ordre superior, son funcions que poden rebre com a parametres alt
 
 Veurem un seguit d'exemples molt senzills per veure com Kotlin implementa el concepte de funcions d'ordre superior, i a mesura que abansem al curs, podrem veure les ventatges d'aquest paradigma.
 
-[Exemple 1]()
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/35-Funcions_d_ordre_superior/Exemple1/src/main/kotlin/Main.kt)
 
 Definirem una funció d'ordre superior anomenada operar. Li arribaran com a parametre dos enters i una funció. Al bloc de la funció cridar a la funcio que arribi com a parametre i enviar els altres dos parametres.
 
