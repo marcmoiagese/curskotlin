@@ -76,7 +76,7 @@ Imprimir del vector:
 - Els valors mes grans o iguals a 50
 - Els valors compresos entre 1 i 10, 20, 30, 90 i 95.
 
-## [Exemple 3]()
+## [Exemple 3](https://github.com/marcmoiagese/curskotlin/blob/master/36-Expresions_lambda/Exemple3/src/main/kotlin/Main.kt)
 
 Farem una funcio d'ordre superior que rebi un String i una funció amb un paràmetre de tipo Char que retorni un Boolean. La funció te d'analitzar cada element del String cridan a la funció que rep com a paràmetre, si retorna un true s'afegira el caracter esmentat al String que retornara.
 
