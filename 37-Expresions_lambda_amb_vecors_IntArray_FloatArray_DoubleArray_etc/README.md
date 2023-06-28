@@ -68,4 +68,4 @@ Crearem un objecte de la classe IntArray de 20 elements amb valors aleatoris com
 ## Problemes
 
 - Crea un vector de tipo  FloatArray de 10 elements, carregar els seus elements per teclat
-  imprimir la cantitat de valors introduits que siguin menors de 50. Imprimir un  missatge si tots els valors son menors de 50.
+  imprimir la cantitat de valors introduits que siguin menors de 50. Imprimir un  missatge si tots els valors son menors de 50. [ [Solucio]() ]
