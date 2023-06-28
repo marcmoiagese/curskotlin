@@ -52,7 +52,7 @@ Definirem una funció d'ordre superior anomenada operar, li arribarà com a par�
 
 Des de la funció main cridarem a operar i enviar diferents expresions lambdas que permetran sumar, restar i elevar el primer valor al segon.
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/36-Expresions_lambda/Exemple2/src/main/kotlin/Main.kt)
 
 Fes una funció d'ordre superior que rebi un vector d'enters i una funció amb un paràmetre del tipus Int i que retorni un Boolean.
 
