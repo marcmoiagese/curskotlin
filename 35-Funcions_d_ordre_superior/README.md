@@ -49,6 +49,61 @@ Es importan entendre el funcionament de la funció operarSobreEnter que rep 2 pa
 
 Les funcions d'ordre superior, es poden utilitzar als mètodes d'una classe.
 
+```kotlin
+data class Persona(val nom: String, val edat: Int)
+
+class GestorPersones(private val persones: List<Persona>) {
+    fun filtrarPersones(filtre: (Persona) -> Boolean): List<Persona> {
+        return persones.filter(filtre)
+    }
+}
+
+// Exemple d'ús de la classe GestorPersones
+fun main() {
+    val persones = listOf(
+        Persona("Maria", 25),
+        Persona("Joan", 30),
+        Persona("Laura", 28),
+        Persona("Marc", 22)
+    )
+
+    val gestor = GestorPersones(persones)
+
+    // Filtrar les persones amb edat superior a 25
+    val personesFiltrades = gestor.filtrarPersones { persona ->
+        persona.edat > 25
+    }
+
+    println("Persones amb edat superior a 25:")
+    for (persona in personesFiltrades) {
+        println(persona.nom)
+    }
+}
+```
+
+En aquest exemple, tenim la data class persona que se li passen com atributs nom i edat, i la classe GestorPersones que te com a propietat privada una variable de tipus llista<Persona> 
+
+```kotlin
+data class Persona(val nom: String, val edat: Int)
+
+class GestorPersones(private val persones: List<Persona>) {
+```
+
+El mètode filtrarPersones es una funció d'ordre superior que li passem un parametre, de tipus Persona i retornarà un boleà.
+
+La funció filtrarPersones utilitza el mètode filter aplicat a la llista de persones (persones). El mètode filter és una funció de la classe List en Kotlin, que pren una funció de predicat com a argument i retorna una nova llista que conté només els elements que compleixen aquest predicat.
+
+En resum, la funció filtrarPersones és una funció d'ordre superior que s'utilitza per filtrar una llista de persones basant-se en un criteri específic proporcionat com a argument. 
+
+Dins de la funció main generem una llista de persones utilitzan la funcio listOf. aquesta llista conté diverses instàncies de l'objecte "Persona" amb els noms i edats especificats.
+
+Després, creem una instancia de la clase "GestorPersones" anomenada "gestor" i li passem la llista de persones com a argument al constructor. Això crea una instància del gestor de persones amb la llista de persones proporcionada.
+
+A continuació utilitzem la funció "filtrarPersones" de la instància "gestor" per filtrar les persones amb edat superior a 25 anys. això ho fem mitjançant l'us de la funció lambda que veurem mes endavant "{ persona -> persona.edat > 25 } ", que actua com a criteri de filtratge. La funció lambda rep una persona com a paràmetre i retorna un valor boleà que indica si l'edat de la persona es superior a 25.
+
+El resultat del filtratge es guarda dins la variable "personesFiltrades", que serà una nova llista que conté només les persones que compleixen el criteri de filtratge. I finalment utilitzem for per recorrer la llista i imprimirla.
+
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/35-Funcions_d_ordre_superior/Exemple1/src/main/kotlin/Main.kt)
 
 Definirem una funció d'ordre superior anomenada operar. Li arribaran com a parametre dos enters i una funció. Al bloc de la funció cridar a la funcio que arribi com a parametre i enviar els altres dos parametres.
