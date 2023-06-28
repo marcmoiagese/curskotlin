@@ -43,6 +43,20 @@ també podem enmagatzemar valors aleatoris per exemple entre 1 i 6
 var vector = IntArray(10) {((Math.random() * 6) + 1).toInt()}
 ```
 
+Hi ha funcions que ens permeten coses com per exemple si volem  verificar que tots els elements d'un vector cumpleixen una condició ho podem validar mitjançant la funcio all
+
+```kotlin
+if (vector.all {it <= valor})
+```
+
+també podem validar si algun dels valors cumpleix una condicio amb l'expresio any
+
+```kotlin
+if (vector.any {it >= valor})
+```
+
+Sempre hem de consultar la pagina oficial de kotlin on podem trobar totes les classes de la llibrerira estàndard. En aquest cas tindriam que consultar la classe [IntArray](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int-array/)
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/37-Expresions_lambda_amb_vecors_IntArray_FloatArray_DoubleArray_etc/Exemple1/src/main/kotlin/Main.kt)
 
 Crearem un objecte de la classe IntArray de 20 elements amb valors aleatoris compresos entre 0 i 10. del vector imprimirem les següents causistiques:
