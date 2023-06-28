@@ -64,3 +64,8 @@ Crearem un objecte de la classe IntArray de 20 elements amb valors aleatoris com
 - Cantitat d'elements menors o iguals a 5
 - Imprimirem un missatge si tots els elements son meonors o iguals a 9
 - Imprimirem un missatge si al menys un dels elements del vector guarda un 10
+
+## Problemes
+
+- Crea un vector de tipo  FloatArray de 10 elements, carregar els seus elements per teclat
+  imprimir la cantitat de valors introduits que siguin menors de 50. Imprimir un  missatge si tots els valors son menors de 50.
