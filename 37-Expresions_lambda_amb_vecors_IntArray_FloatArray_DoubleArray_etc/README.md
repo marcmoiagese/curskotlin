@@ -43,7 +43,7 @@ també podem enmagatzemar valors aleatoris per exemple entre 1 i 6
 var vector = IntArray(10) {((Math.random() * 6) + 1).toInt()}
 ```
 
-## [Exemple 1]()
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/37-Expresions_lambda_amb_vecors_IntArray_FloatArray_DoubleArray_etc/Exemple1/src/main/kotlin/Main.kt)
 
 Crearem un objecte de la classe IntArray de 20 elements amb valors aleatoris compresos entre 0 i 10. del vector imprimirem les següents causistiques:
 - tots els elements
