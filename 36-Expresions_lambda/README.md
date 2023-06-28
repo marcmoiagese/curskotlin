@@ -43,7 +43,17 @@ val multiplicacio = matematica(2, 3) {x, y ->
 }
 ```
 
-El mes comu es utilitzar aquesta síntaxis per passar una expresió lambda cuan es l'ultim parametre de la funció.
+El mes comu es utilitzar aquesta síntaxis per passar una expresió lambda cuan es l'ultim parametre de la funció. Amb l'intenció de poder simplificar i fer codi mes concís, cuan tenim una expresió lambda a la que la seva funció rep nomes un parametre, podem obviarlo, inclos el signe ->. Per convenció a aquest unic parametre podem fer referència a ell amb la parula "it" quedan el següent codi:
+
+```kotlin
+funcio(parametre) {x -> x * 2 }
+```
+
+De la següent manera:
+
+```kotlin
+funcio(parametre) {it * 2 }
+```
 
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/36-Expresions_lambda/Exemple1/src/main/kotlin/Main.kt)
@@ -65,3 +75,14 @@ Imprimir del vector:
 - Els valors multiples de 3 o 5
 - Els valors mes grans o iguals a 50
 - Els valors compresos entre 1 i 10, 20, 30, 90 i 95.
+
+## [Exemple 3]()
+
+Farem una funcio d'ordre superior que rebi un String i una funció amb un paràmetre de tipo Char que retorni un Boolean. La funció te d'analitzar cada element del String cridan a la funció que rep com a paràmetre, si retorna un true s'afegira el caracter esmentat al String que retornara.
+
+A la funció main definirem un String amb una cadena cualsevol.
+
+Cridar a la funció d'ordre superior i pasar expresions lambdas per filtrar i generar un altre Stringa amb les seguents restriccions:
+- Un String nomes amb les vocals
+- Un String nomes amb els caracters en minúscules
+- Un String amb tots els caracters no alfabetics.
