@@ -4,7 +4,7 @@ Una expresió lambda es cuan enviem a una funció d'ordre superior directament u
 
 Es mes habitual enviar una expresió lambda enlloc d'enviar la referencia d'una funció com hem estat veien al exemple anterior
 
-## [Exemple1]()
+## [Exemple1](https://github.com/marcmoiagese/curskotlin/blob/master/36-Expresions_lambda/Exemple1/src/main/kotlin/Main.kt)
 
 Definirem una funció d'ordre superior anomenada operar, li arribarà com a paràmetre dons enters i una funció. al bloc de la funció cridarem a la funció que arriba com a parametre i enviarem els dos primers parametres.
 
