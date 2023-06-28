@@ -6,7 +6,7 @@
  * - Imprimirem un missatge si al menys un dels elements del vector guarda un 10
  */
 
-// PEr resoldre aquest problema utilitzem un seguit d'algoritmes que ens proveeix la classe IntArray
+// Per resoldre aquest problema utilitzem un seguit d'algoritmes que ens proveeix la classe IntArray
 fun main(args: Array<String>) {
     // Definim un objecte de classe IntArray de 20 elements i li passem una expresió lambda per generar valors aleatoris comresos entre 0 i 10
     var vector = IntArray(20) { (Math.random() * 11).toInt()}
@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
     else
         println("No tots els elements son menors o iguals a 9")
 
-    // D'altra banda la condicio "any" ens 
+    // D'altra banda la condicio "any" ens
     if (vector.any {it == 10})
         println("Al menys un dels elements es un 10")
     else
