@@ -55,7 +55,7 @@ Definirem una funció d'ordre superior anomenada operar. Li arribaran com a para
 
 La funció retornara un enter
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/35-Funcions_d_ordre_superior/Exemple2/src/main/kotlin/Main.kt)
 
 Declararem una classe que enmagatzemi el nom i l'edat d'una persona. Definirem un mètode que retorni true o false depenen si la persona es major d'edat o no. Aquesta funció ha de rebre com a paràmetre una funcio que al cridarla passant-li l'edat de la persona retorni si es major o no d'edat.
 Tindrem en compte que si viu a Estats units, la majoria d'edat es a partir dels 21 anys, i que a Españistan ho es a partir dels 18.
