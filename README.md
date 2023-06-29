@@ -62,4 +62,4 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [36- Expresions lambda](https://github.com/marcmoiagese/curskotlin/tree/master/36-Expresions_lambda)
 - [37- Expresions lambda amb vecors IntArray, FloatArray, DoubleArray, etc](https://github.com/marcmoiagese/curskotlin/tree/master/37-Expresions_lambda_amb_vecors_IntArray_FloatArray_DoubleArray_etc)
 - [38- Expresions lambda: Acces a les variables externes a la expresio lambda](https://github.com/marcmoiagese/curskotlin/tree/master/38-Expresions_lambda_Acces_a_les_variables_externes_a_la_expresio_lambda)
-- [39- Funcions d'extensió]()
+- [39- Funcions d'extensió](https://github.com/marcmoiagese/curskotlin/tree/master/39-Funcions_d_extensio)
