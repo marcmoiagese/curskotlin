@@ -66,4 +66,4 @@ Declararem una classe Persona amb les propietats nom i edat, definirem com a met
 ## Problemes
 
 - Decada una classe Dau que tingui com a propietat el seu valor i dos mètodes que permetran tirar el dau i imprimir el seu valor. A la main definirem un vector de 55 objectes de tipus Dau
-  tirar els 5 daus i imprimir cuants 1,2,3,4,5 i 6 han sortit ( [Solució]() )
+  tirar els 5 daus i imprimir cuants 1,2,3,4,5 i 6 han sortit ( [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/38-Expresions_lambda_Acces_a_les_variables_externes_a_la_expresio_lambda/Problema1/src/main/kotlin/Main.kt) )
