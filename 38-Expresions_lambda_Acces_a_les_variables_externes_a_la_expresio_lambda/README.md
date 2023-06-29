@@ -3,6 +3,30 @@
 Hem vist anteriorment que una expresió lambda es cuan enviem a una funcio d'ordre superior directament una funcio anonima.
 Dins de la funcio lambda podem accedir als parametres de la mateixa si els te, definir variables locals i ara veurem que tambe podem accedir a les variables externes a la expresió lambda definida.
 
+Podem accedir a una variable que estigui declarada fora de la funció lambda
+
+```kotlin
+var contador = 0
+recorroVector(vectorX) {
+    if (it != 0 )
+        contador++
+}
+```
+
+La variable contador es de tipo Int i s'inicialitza a 0 previament abans de cridar a la funció recorroVector i passar l'expresió lambda on incrementem el contador cada cop que analitzem un element del vector que ens envia la funció d'ordre superior.
+
+També remarcar que cuan una funció no retorna cap dada i es un paràmetre d'una altra funció, hem de posar que el que retorna es de tipus Unit 
+
+```kotlin
+fun recorroVector(vector: IntArray, funcio:(Int) -> Unit) {
+```
+
+També cal tenir en compte que no es obligatori indicar com a Unit que la propia funció no retorna cap dada, ja que Kotlin es capas de detectar-ho, es a dir, no veuras gaires cops el seguent exemple per que no cal
+
+```kotlin
+fun recorroVector(vector: IntArray, funcio:(Int) -> Unit): Unit {
+```
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/38-Expresions_lambda_Acces_a_les_variables_externes_a_la_expresio_lambda/Exemple1/src/main/kotlin/Main.kt)
 
 Crearem una funció d'ordre suoperior que rebi un vector d'enters i una funcio amb un parametre de tipus init, que no retorni res.
@@ -14,3 +38,13 @@ A la funcio main, definirem un vector d'enters de 10 elements i enmagatzemar val
 Imprimir del vector:
 - La cantitat de multiples de 3
 - La suma de tots els components que siguin superiors a 50
+
+## [Exemple 2]()
+
+Resoldrem el mateix problema pero en aquest cas utilitzarem el mètode forEach que disposa la classe IntArray per analitzar tots els components del vector.
+
+A la funcio main definirem un vector d'enters de 10 elements i guardarem valors aleatoris compresos entre 0 i 99.
+
+Imprimirem del vector:
+- La cantitat de multiples de 3
+- La suma de tots els components superiors a 50

@@ -25,11 +25,15 @@ fun main(args: Array<String>) {
         print("$element - ")
     println()
 
+    // Declarem la variable cantitat
     var cantitat = 0
+    // Cridem a una funció d'ordre superior a la que li enviem el vector creat previament i una funcio lambda
     exploraVector(vector1){
+        // validem que el valor del vector sigui divisible per 3
         if(it % 3 == 0)
-            cantitat++
+            cantitat++ // Fixat que aqui accedim a la variable que hem inicialitzat fora la funció per augmentar en 1 en cas que sigui true el if
     }
+
 
     println("La cantitat d'elements multiples de 3 son $cantitat")
     var suma = 0
