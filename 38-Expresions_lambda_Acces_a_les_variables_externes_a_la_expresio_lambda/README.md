@@ -27,6 +27,14 @@ També cal tenir en compte que no es obligatori indicar com a Unit que la propia
 fun recorroVector(vector: IntArray, funcio:(Int) -> Unit): Unit {
 ```
 
+La classe IntAray com les altres classes similars ByteArray, ShortArray, FloatArray, etc disposen de un metode anomenat forEach que se li te d'enviar una expresio lambda, la cual s'executa per a cada element del vector.
+
+```kotlin
+vectror.dorEach {
+    Funció lambda
+}
+```
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/38-Expresions_lambda_Acces_a_les_variables_externes_a_la_expresio_lambda/Exemple1/src/main/kotlin/Main.kt)
 
 Crearem una funció d'ordre suoperior que rebi un vector d'enters i una funcio amb un parametre de tipus init, que no retorni res.
@@ -48,3 +56,9 @@ A la funcio main definirem un vector d'enters de 10 elements i guardarem valors 
 Imprimirem del vector:
 - La cantitat de multiples de 3
 - La suma de tots els components superiors a 50
+
+## [Exemple 3]()
+
+Declararem una classe Persona amb les propietats nom i edat, definirem com a metodes la seva impresio i una altra que retorni true si es major d'edat o false en cas contrari. A la funció main, definirem un vector amb cuatre elements de tipus Persona. Calcularem cuantes persones son majors d'edat cridan al mètode forEach de la classe Array.
+
+## Problemes
