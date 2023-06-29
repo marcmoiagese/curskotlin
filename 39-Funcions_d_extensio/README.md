@@ -36,3 +36,7 @@ Cuan cridem a una funcio d'extensio ho fem de manera identica a les altres funci
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/39-Funcions_d_extensio/Exemple1/src/main/kotlin/Main.kt)
 
 Afegirem dues funcions a la classe String que ens permetin recuperar la meitat i la segona mitat
+
+## [Exemple 2]()
+
+Agregarem una funció a la classe IntArray que permeti imprimir tots els seus components a una línea.
