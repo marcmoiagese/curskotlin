@@ -35,6 +35,8 @@ vectror.dorEach {
 }
 ```
 
+La classe Array tambe disposa de un mètode forEach al que li passem una funció lambda i rep com a parametre un element del Array cada cop que s'executa. 
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/38-Expresions_lambda_Acces_a_les_variables_externes_a_la_expresio_lambda/Exemple1/src/main/kotlin/Main.kt)
 
 Crearem una funció d'ordre suoperior que rebi un vector d'enters i una funcio amb un parametre de tipus init, que no retorni res.
@@ -57,8 +59,11 @@ Imprimirem del vector:
 - La cantitat de multiples de 3
 - La suma de tots els components superiors a 50
 
-## [Exemple 3]()
+## [Exemple 3](https://github.com/marcmoiagese/curskotlin/blob/master/38-Expresions_lambda_Acces_a_les_variables_externes_a_la_expresio_lambda/Exemple3/src/main/kotlin/Main.kt)
 
 Declararem una classe Persona amb les propietats nom i edat, definirem com a metodes la seva impresio i una altra que retorni true si es major d'edat o false en cas contrari. A la funció main, definirem un vector amb cuatre elements de tipus Persona. Calcularem cuantes persones son majors d'edat cridan al mètode forEach de la classe Array.
 
 ## Problemes
+
+- Decada una classe Dau que tingui com a propietat el seu valor i dos mètodes que permetran tirar el dau i imprimir el seu valor. A la main definirem un vector de 55 objectes de tipus Dau
+  tirar els 5 daus i imprimir cuants 1,2,3,4,5 i 6 han sortit ( [Solució]() )
