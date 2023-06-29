@@ -39,7 +39,7 @@ Imprimir del vector:
 - La cantitat de multiples de 3
 - La suma de tots els components que siguin superiors a 50
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/38-Expresions_lambda_Acces_a_les_variables_externes_a_la_expresio_lambda/Exemple2/src/main/kotlin/Main.kt)
 
 Resoldrem el mateix problema pero en aquest cas utilitzarem el mètode forEach que disposa la classe IntArray per analitzar tots els components del vector.
 
