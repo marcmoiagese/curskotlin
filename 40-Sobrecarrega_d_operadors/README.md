@@ -39,7 +39,7 @@ d'aquesta manera, cada cop que cridem al operador + entre dos vectors sumara cad
 ...
 ```
 
-Per sobrecarregar els operadors *>>=* i *<<=* hem d'implementar el mètode compareTo
+Per sobrecarregar els operadors *>>=* i *<<=* hem d'implementar el mètode compareTo. 
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple1/src/main/kotlin/Main.kt)
 
