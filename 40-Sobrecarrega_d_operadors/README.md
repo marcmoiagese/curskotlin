@@ -17,7 +17,7 @@ a..b         rangeTo
 ```
 
 
-## [Exemple 1]()
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple1/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter  i carregui valors aleatoris entre 1 i 10. Sobrecarregarem els operadors +, -, * i /
 A la main definirem una serie d'objectes de la classe Vector i operarem amb ells.
