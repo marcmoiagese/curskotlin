@@ -1,4 +1,4 @@
-# Sobrecarrega d'operadors
+ Sobrecarrega d'operadors
 
 El llenguatge kotlin permet que certs operadors puguin sobrecarregarse i actuin de diferents maneres depenen de l'objecte que s'apliqui.
 
@@ -40,6 +40,21 @@ d'aquesta manera, cada cop que cridem al operador + entre dos vectors sumara cad
 ```
 
 Per sobrecarregar els operadors *>>=* i *<<=* hem d'implementar el mètode compareTo. 
+
+## Sobecarrega d'operadors de subíndex
+
+A Kotlin podem sobrecarregar la gestió de subíndex implementan els mètodes get i set.
+
+```txt
+l'expresió                es tradueix
+a[i] = b	          a.set(i, b)
+a[i, j] = b	          a.set(i, j, b)
+a[i_1, ..., i_n] = b	  a.set(i_1, ..., i_n, b)
+
+a[i]	                  a.get(i)
+a[i, j]	                  a.get(i, j)
+a[i_1, ..., i_n]	  a.get(i_1, ..., i_n)
+```
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple1/src/main/kotlin/Main.kt)
 
