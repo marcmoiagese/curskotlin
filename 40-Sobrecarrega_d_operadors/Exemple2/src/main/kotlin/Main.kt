@@ -17,6 +17,7 @@ class Vector{
         println()
     }
 
+    // En aquest problema, per sobrecarregar l'operador * d'un vector per un tipus enter, al metode li te d'arribar una dada de tipus int
     operator fun times(valor: Int): Vector{
         var suma = Vector()
         for (i in vector.indices)
@@ -31,6 +32,10 @@ fun main(args: Array<String>) {
     vec1.imprimir()
 
     println("El producte de un vector amb el numero 10 es")
-    val vecProducteEnt = vec1 * 10
+    val vecProducteEnt = vec1 * 10 // Cuan volem multiplicar un objecte de la classe Vector per un tipus de dada Int ho tenim que fer en aquest ordre
+    /**
+     * Si vulguessim invertir l'ordre, es a dir multiplicar el int pel vector, tindriam que modificar el metode times a la classe Int
+     * operator fun times(vec: Vector): Vector{
+     */
     vecProducteEnt.imprimir()
 }

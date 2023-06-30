@@ -42,6 +42,10 @@ d'aquesta manera, cada cop que cridem al operador + entre dos vectors sumara cad
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter  i carregui valors aleatoris entre 1 i 10. Sobrecarregarem els operadors +, -, * i /
 A la main definirem una serie d'objectes de la classe Vector i operarem amb ells.
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple2/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Vector que administrara un vector de 5 elements de tipus enter, tambe carregara valors aleatoris entre 1 i 10. Sobrecarregarem l'operador * per a que permeti multiplicar un vector amb un numero enter. Es te que multiplicar cada component del vector pel enter.
+
+## [Exemple 3]()
+
+Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter, i carregarem valors aleatoris entre 1 i 10. Sobrecarregarem els operadors ++ i -- que tenen que incrementar o disminuit una unitat a cada element del vector.
