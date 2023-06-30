@@ -49,4 +49,4 @@ Agregarem una funció a la classe IntArray que permeti imprimir tots els seus co
    ```kotlin
      fun Int.hasta(fin: Int) {
    ```
-   ( [Solucio]() )
+   ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/39-Funcions_d_extensio/Problema2/src/main/kotlin/Main.kt) )
