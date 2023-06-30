@@ -56,6 +56,19 @@ a[i, j]	                  a.get(i, j)
 a[i_1, ..., i_n]	  a.get(i_1, ..., i_n)
 ```
 
+## Sobrecarga de parentesis
+
+A Kotlin tambe podem sobrecarregar els parentesis implementatn el metode invoke.
+
+```txt
+l'expresió              es tradueix
+a()                     a.invoke()
+a(i)                    a.invoke(i)
+a(i, j)	                a.invoke(i, j)
+a(i_1, ..., i_n)        a.invoke(i_1, ..., i_n)
+```
+
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple1/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter  i carregui valors aleatoris entre 1 i 10. Sobrecarregarem els operadors +, -, * i /
