@@ -14,6 +14,8 @@ a * b        times
 a / b        div
 a % b        rem
 a..b         rangeTo
+++	     inc
+--           dec
 ```
 Per exemple, si volem sobrecarregar l'operador suma (+) ho  podríam fer aixi
 
@@ -37,6 +39,8 @@ d'aquesta manera, cada cop que cridem al operador + entre dos vectors sumara cad
 ...
 ```
 
+Per sobrecarregar els operadors *>>=* i *<<=* hem d'implementar el mètode compareTo
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple1/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter  i carregui valors aleatoris entre 1 i 10. Sobrecarregarem els operadors +, -, * i /
@@ -49,3 +53,7 @@ Declararem una classe anomenada Vector que administrara un vector de 5 elements 
 ## [Exemple 3](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple3/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter, i carregarem valors aleatoris entre 1 i 10. Sobrecarregarem els operadors ++ i -- que tenen que incrementar o disminuit una unitat a cada element del vector.
+
+## [Exemple 4]()
+
+Implementarem una classe anomenada Persona que tindra com a propietats el seu nom i edat. Sobrecarregarem els operadors >>= i <<=.
