@@ -5,8 +5,10 @@
  */
 
 class Joc{
+    // La propietat taulell guarda les nou caselles del joc dins un vector. Per a que sigui mes intuitiu la carrega de fitxes al joc sobrecarregare, l'operador de subindex amb fila i columna
     val taulell  = IntArray(9)
 
+    // La impresió del taulell accedeix amb this a la sobrecarrega del operador de subindex accedin al mètode get:
     fun imprimir(){
         for(fila in 0..2){
             for(columna in 0..2)
@@ -16,11 +18,13 @@ class Joc{
         println()
     }
 
+    // Cada asignació crida al metode set, que ademes de ccarregar la fitxa pasa a imprimir el taulell
     operator fun set(fila: Int, columna: Int, valor: Int){
         taulell[fila*3 + columna] = valor
         imprimir()
     }
 
+    // Implementem amb get la sobrecàrrega per recuperar el valor enmagatzemat
     operator fun get(fila: Int, columna: Int): Int{
         return taulell[fila*3 + columna]
     }
@@ -28,6 +32,8 @@ class Joc{
 
 fun main(args: Array<String>) {
     val joc = Joc()
+
+    // Aqui indiquem la fila i la columna jugan amb una matriu, i la fixa que es carrega
     joc[0, 0] = 1
     joc[0, 2] = 2
     joc[2, 0] = 1
