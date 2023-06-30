@@ -54,6 +54,6 @@ Declararem una classe anomenada Vector que administrara un vector de 5 elements 
 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter, i carregarem valors aleatoris entre 1 i 10. Sobrecarregarem els operadors ++ i -- que tenen que incrementar o disminuit una unitat a cada element del vector.
 
-## [Exemple 4]()
+## [Exemple 4](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple4/src/main/kotlin/Main.kt)
 
 Implementarem una classe anomenada Persona que tindra com a propietats el seu nom i edat. Sobrecarregarem els operadors >>= i <<=.
