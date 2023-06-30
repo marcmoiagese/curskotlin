@@ -43,4 +43,9 @@ Agregarem una funció a la classe IntArray que permeti imprimir tots els seus co
 
 ## Problemes
 
-- Afegir a la classe String un mètode imprimir que ensenyi tots els caracters que te guardats una línea. ( [Solució]() )
+- Afegir a la classe String un mètode imprimir que ensenyi tots els caracters que te guardats una línea. ( [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/39-Funcions_d_extensio/Problema1/src/main/kotlin/Main.kt) )
+
+- Fes una funció d'extensió anomenada "Fins" que te d'extreure la classe Int i te per objectiu ensenyar desde el valor enter que guardem l'objecte fins al valor que arriba com a parametre.
+   ```kotlin
+     fun Int.hasta(fin: Int) {
+   ```
