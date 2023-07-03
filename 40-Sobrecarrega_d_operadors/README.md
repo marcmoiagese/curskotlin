@@ -124,7 +124,7 @@ Declararem una classe anomenada Vector que administri un vector de 5 elements de
 Sobrecarregarem l'operador +=
 A la main, definirem una serie d'objectes de la classe i utilitzarem l'operador +=
 
-## [Exemple 8]()
+## [Exemple 8](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple8/src/main/kotlin/Main.kt)
 
 Farem una data class anomenada Alumne que guardi el seu numero de document i el seu nom
 Despres a una classe curs, definirem un vector amb 3 objectes de la classe Alumne. Sobrecarregarem l'operador in per validar si un numero de document es troba inscrit al curs.
