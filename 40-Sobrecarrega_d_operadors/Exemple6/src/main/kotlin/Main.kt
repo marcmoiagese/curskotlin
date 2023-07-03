@@ -11,6 +11,7 @@ class Daus(){
             vector[i] = ((Math.random() * 6) + 1).toInt()
     }
 
+    // Especifiquem la sobrecarrega del operador parentesis amb l'implementació del metode invoke
     operator fun invoke(nro: Int) = vector[nro]
 }
 
