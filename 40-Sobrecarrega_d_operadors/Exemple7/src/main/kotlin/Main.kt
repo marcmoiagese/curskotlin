@@ -11,6 +11,7 @@ class Vector{
             print("$element ")
     }
 
+    // Per sobrecarregar un operador += a la classe Vector definirem el mètode plusAssign.
     operator fun plusAssign(vec2: Vector) {
         for(i in vector.indices)
             vector[i] += vec2.vector[i]
