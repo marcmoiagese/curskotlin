@@ -68,6 +68,18 @@ a(i, j)	                a.invoke(i, j)
 a(i_1, ..., i_n)        a.invoke(i_1, ..., i_n)
 ```
 
+## Sobrecarrega d'operadors +=  -= *= /= %=
+
+Els mètodes que invoquem per aquets operadors son:
+
+```txt
+l'expresio         es tradueix en
+a += b	           a.plusAssign(b)
+a -= b	           a.minusAssign(b)
+a *= b	           a.timesAssign(b)
+a /= b	           a.divAssign(b)
+a %= b	           a.modAssign(b)
+```
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple1/src/main/kotlin/Main.kt)
 
@@ -95,3 +107,9 @@ Mitjançant sobrecarrega d'operadors de subindex permitirem assignar les  fixes 
 
 Crearem una classe Daus que administrara 10 valors de daus dins un vector de tipus IntArray.
 Sobrecarregarem l'operador parentesis per la classe i accedirem mitjançant una posició al valor d'un costat especific.
+
+## [Exemple 7]()
+
+Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter.
+Sobrecarregarem l'operador +=
+A la main, definirem una serie d'objectes de la classe i utilitzarem l'operador +=
