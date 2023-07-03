@@ -81,6 +81,16 @@ a /= b	           a.divAssign(b)
 a %= b	           a.modAssign(b)
 ```
 
+## Sobrecàrrega d'operadors in i !in
+
+Els mètodes que s'invoquen per aquest operadors son:
+
+```txt
+l'expresió        es tradueix
+a in b             b.contains(a)
+a !in b           !b.contains(a)
+```
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple1/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter  i carregui valors aleatoris entre 1 i 10. Sobrecarregarem els operadors +, -, * i /
@@ -113,3 +123,8 @@ Sobrecarregarem l'operador parentesis per la classe i accedirem mitjançant una 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter.
 Sobrecarregarem l'operador +=
 A la main, definirem una serie d'objectes de la classe i utilitzarem l'operador +=
+
+## [Exemple 8]()
+
+Farem una data class anomenada Alumne que guardi el seu numero de document i el seu nom
+Despres a una classe curs, definirem un vector amb 3 objectes de la classe Alumne. Sobrecarregarem l'operador in per validar si un numero de document es troba inscrit al curs.
