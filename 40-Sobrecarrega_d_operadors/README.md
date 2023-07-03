@@ -108,7 +108,7 @@ Mitjançant sobrecarrega d'operadors de subindex permitirem assignar les  fixes 
 Crearem una classe Daus que administrara 10 valors de daus dins un vector de tipus IntArray.
 Sobrecarregarem l'operador parentesis per la classe i accedirem mitjançant una posició al valor d'un costat especific.
 
-## [Exemple 7]()
+## [Exemple 7](https://github.com/marcmoiagese/curskotlin/blob/master/40-Sobrecarrega_d_operadors/Exemple7/src/main/kotlin/Main.kt)
 
 Declararem una classe anomenada Vector que administri un vector de 5 elements de tipus enter.
 Sobrecarregarem l'operador +=
