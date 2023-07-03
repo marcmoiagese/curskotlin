@@ -14,8 +14,8 @@ a * b        times
 a / b        div
 a % b        rem
 a..b         rangeTo
-++	     inc
---           dec
+a++	     inc
+a--           dec
 ```
 Per exemple, si volem sobrecarregar l'operador suma (+) ho  podríam fer aixi
 
@@ -91,3 +91,7 @@ Implementarem una classe anomenada Persona que tindra com a propietats el seu no
 Implementarem una classe Joc que defineixi una propietat pel taulell que sigui un IntArray de 9 elements amb valor 0. Hi haura 2 jugadors que disposin fixes, el primer jugador carrega el 1 i el segon carrega un 2.
 Mitjançant sobrecarrega d'operadors de subindex permitirem assignar les  fixes a cada posició del taulell a través de dos subindex que indiquen la fila i la columna del taulell.
 
+## [Exemple 6]()
+
+Crearem una classe Daus que administrara 10 valors de daus dins un vector de tipus IntArray.
+Sobrecarregarem l'operador parentesis per la classe i accedirem mitjançant una posició al valor d'un costat especific.
