@@ -28,6 +28,14 @@ fun imprimir(vararg noms: String) {
 
 Dins de la funció tractarem al paràmetre nom com un vector. Cuan cridem a la funció imprimir no enviem un vector sino una llista de String, el compilador s'encarrega de transformar aquesta llista a un vector.
 
+Només un parametre d'una funció pot ser de tipus vararg i normalment es l'ultim.
+
+!!! A l'entorn IntelliJ IDEA si prems la tecla ctrl i poses la fletxa del ratolí sobre un mètode, ens apareix un link, si presionem  s'obrirà una pestanya on podrem veure on esta implementat el mètode. Això ens permet desplasarnos pel nostre programa de manera rapida i poder analitzar els algoritmes que ja estan definits a una llibreria estànbdard de Kotlin.
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/41-Funcions_numero_variable_de_parametres/Exemple1/src/main/kotlin/Main.kt)
 
 Farem una funció que rebi una cantitat variable d'enters i ens retorni la seva suma [Exemple optimitzat](https://github.com/marcmoiagese/curskotlin/blob/master/41-Funcions_numero_variable_de_parametres/Exemple1/src/main/kotlin/Optimitzat.kt)
+
+## [Problema 2]()
+
+Realitzarem una funció que rebi com a primer paràmetre, el tipus d'operacio que vulguem realitzar ambe amb les seguents dades enters que li enviem
