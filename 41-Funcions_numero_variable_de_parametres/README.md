@@ -30,4 +30,4 @@ Dins de la funció tractarem al paràmetre nom com un vector. Cuan cridem a la f
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/41-Funcions_numero_variable_de_parametres/Exemple1/src/main/kotlin/Main.kt)
 
-Farem una funció que rebi una cantitat variable d'enters i ens retorni la seva suma
+Farem una funció que rebi una cantitat variable d'enters i ens retorni la seva suma [Exemple optimitzat](https://github.com/marcmoiagese/curskotlin/blob/master/41-Funcions_numero_variable_de_parametres/Exemple1/src/main/kotlin/Optimitzat.kt)
