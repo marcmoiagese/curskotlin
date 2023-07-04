@@ -28,6 +28,6 @@ fun imprimir(vararg noms: String) {
 
 Dins de la funció tractarem al paràmetre nom com un vector. Cuan cridem a la funció imprimir no enviem un vector sino una llista de String, el compilador s'encarrega de transformar aquesta llista a un vector.
 
-## [Exemple 1]()
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/41-Funcions_numero_variable_de_parametres/Exemple1/src/main/kotlin/Main.kt)
 
 Farem una funció que rebi una cantitat variable d'enters i ens retorni la seva suma
