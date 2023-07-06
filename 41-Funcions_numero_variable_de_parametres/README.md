@@ -61,4 +61,4 @@ Realitzarem una funció que rebi com a primer paràmetre, el tipus d'operacio qu
 
 ## Problemes
 
-*  Fes una funció que rebi una serie d'edats i ens retorni la cantitat que son mes grans o iguals a 18 (com a minim s'envia un enter a la funció) ( [Solució]() )
+*  Fes una funció que rebi una serie d'edats i ens retorni la cantitat que son mes grans o iguals a 18 (com a minim s'envia un enter a la funció) ( [Solució](https://github.com/marcmoiagese/curskotlin/blob/master/41-Funcions_numero_variable_de_parametres/Problema1/src/main/kotlin/Main.kt) )
