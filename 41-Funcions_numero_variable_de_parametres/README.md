@@ -37,6 +37,6 @@ A l'entorn IntelliJ IDEA si prems la tecla ctrl i poses la fletxa del ratolí so
 
 Farem una funció que rebi una cantitat variable d'enters i ens retorni la seva suma [Exemple optimitzat](https://github.com/marcmoiagese/curskotlin/blob/master/41-Funcions_numero_variable_de_parametres/Exemple1/src/main/kotlin/Optimitzat.kt)
 
-## [Problema 2]()
+## [Exemple 2]()
 
 Realitzarem una funció que rebi com a primer paràmetre, el tipus d'operacio que vulguem realitzar ambe amb les seguents dades enters que li enviem
