@@ -66,7 +66,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [40- Sobrecarrega d'operadors](https://github.com/marcmoiagese/curskotlin/tree/master/40-Sobrecarrega_d_operadors)
 - [41- Funcions: Número variable de paràmetres](https://github.com/marcmoiagese/curskotlin/tree/master/41-Funcions_numero_variable_de_parametres)
 - [42- Valors nuls a les variables](https://github.com/marcmoiagese/curskotlin/tree/master/42-valors_nuls_a_les_variables)
-- 43- Coleccions
+- [43- Coleccions](https://github.com/marcmoiagese/curskotlin/tree/master/43-Coleccions)
 - 44- Coleccions: List i MutableList
 - 45- Coleccions: Map i MutableMap
 - 46- Coleccions: Set i MutableSet
