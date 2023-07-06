@@ -61,4 +61,4 @@ Realitzarem una funció que rebi com a primer paràmetre, el tipus d'operacio qu
 
 ## Problemes
 
-*  Fes una funció que rebi una serie d'edats i ens retorni la cantitat que son mes grans o iguals a 18 (com a minim s'envia un enter a la funció) ( [Silució]() )
+*  Fes una funció que rebi una serie d'edats i ens retorni la cantitat que son mes grans o iguals a 18 (com a minim s'envia un enter a la funció) ( [Solució]() )
