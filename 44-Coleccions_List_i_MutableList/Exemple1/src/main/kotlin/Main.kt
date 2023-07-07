@@ -3,10 +3,12 @@
  */
 
 fun main(args: Array<String>) {
+
+    // Per crear una llista inmutable podem cridaar a la funció listOf i passar com a parametre les dades a guardar, hem d'indicar el tipus de dades a guardar dins la llista
     var llista1: List<String> = listOf("Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge")
     println("Imprimirem la llista complerta")
     println(llista1)
-
+    
     println("Imprimirem el primer element de la llista")
     println(llista1[0])
 
