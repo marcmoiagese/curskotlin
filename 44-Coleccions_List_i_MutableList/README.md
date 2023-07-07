@@ -13,10 +13,10 @@ var nomVariable: List<TipusDada> = lostOf("Diferents", "Elements", "de", "la", "
 D'altra banda, podem crear llistes mutables, de la següent manera.
 
 ```kotlin
-
+val nomvariable: MutableList<TipusDada> = mutableListOf("Diferents", "Elements", "de", "la", "llista")
 ```
 
-Podem veure mes propietats i metodes de List ho podem veure des de la documentació de la [llibreria estándard](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/) de Kotlin.
+Podem veure mes propietats i metodes de List des de la documentació de la [llibreria estándard](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/) de Kotlin. I per a les Mutables també ho podem veure des de la [llibreria estandard](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/)
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Exemple1/src/main/kotlin/Main.kt)
 
