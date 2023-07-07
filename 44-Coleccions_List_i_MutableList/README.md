@@ -33,3 +33,10 @@ Crearem una llista mutable amb les edats de diverses persones. Probarem les prop
 ## [Exemple 4](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Exemple4/src/main/kotlin/Main.kt)
 
 Crearem una llista mutable de 20 elements amb valors aleatoris compresos entre 1 i 6. Comptarem cuants elements te guardats el valor 1. Eliminarem els elements que guarden un 6.
+
+## [Exemple 5]()
+
+Crearem una classe anomenada Persona que tindra com a propietats el seu nom i edat. A més a més, definirem dos metodes, un que imprimeixi les propietats i un altre que ensenyi si es major d'edat.
+Definir una llista mutable d'objectes de la classe Persona.
+Imprimir les dades de totes les persones.
+Imprimir cuantes persones son majors d'edat.
