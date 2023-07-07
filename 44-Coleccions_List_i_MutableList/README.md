@@ -29,3 +29,7 @@ Ara veurem com crear una llista inmutable pero utilitzarem la funció  List a la
 ## [Exemple 3](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Exemple3/src/main/kotlin/Main.kt)
 
 Crearem una llista mutable amb les edats de diverses persones. Probarem les propietats i mètodes principals per administrar la llista mutable.
+
+## [Exemple 4]()
+
+Crearem una llista mutable de 20 elements amb valors aleatoris compresos entre 1 i 6. Comptarem cuants elements te guardats el valor 1. Eliminarem els elements que guarden un 6.
