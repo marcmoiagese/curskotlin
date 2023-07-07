@@ -53,10 +53,17 @@ Mes endavan veurem funciona amb la notacio infix i amb parametres generics. Si v
 Al bloc principal del proframa definirem un Map inmutable que guardi els noms de paisos com clau i com valor la cantitat de habitans del país.
 Probar diferents mètodes i propietats que ens proveeix la classe Map.
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/45-Coleccions_Map_i_MutableMap/Exemple2/src/main/kotlin/Main.kt)
 
 Crea un mapa que permeti guardar 5 articles,  utilitza com a clau el nom del producte i com valor el preu del mateix. A més a més fes les seguents funcions:
 - Imprimeix el dicconari sencer
 - Mostra la cantitat d'articles amb preu superior a 20
+
+## [Exemple 3]()
+
+Farem una aplicació que ens permeti crear un diccionari ingles/català. La clau es la paraula amb ingles i el valor es la paraula en català. crearem les seguents funcions:
+- Carregarem el diccionari (  introduin per teclat la paraula inglesa i la seva traducció al català)
+- Listat complet del diccionari.
+- Introduirem per teclat una paraula amb ingles i si existeix al diccionari ensenyara la seva traducció.
 
 
