@@ -24,5 +24,5 @@ fun main(args: Array<String>) {
                                               "mandarines" to 15f,
                                               "Melo" to 28f)
     imprimir(productes)
-    cantitatPreuMesGran20(productes)
+    cantitatPreuMesGran20(product)
 }
