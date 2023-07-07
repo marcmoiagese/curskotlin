@@ -26,6 +26,6 @@ Crearem una llista inmutable amb els dies de la setmana. Probarem les propietats
 
 Ara veurem com crear una llista inmutable pero utilitzarem la funció  List a la cual li enviarem el tamany de la llista i una funció lambda indican quins valors guardar.
 
-## [Exemple 3]()
+## [Exemple 3](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Exemple3/src/main/kotlin/Main.kt)
 
 Crearem una llista mutable amb les edats de diverses persones. Probarem les propietats i mètodes principals per administrar la llista mutable.
