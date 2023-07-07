@@ -54,4 +54,4 @@ Imprimir cuantes persones son majors d'edat.
   Afegeix un nou treballador a la llista i calcular novament els salaris. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema2/src/main/kotlin/Main.kt) )  ( [Solucio 2](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema2/src/main/kotlin/MainAlternatiu.kt) )
 
 * Carrega per teclat i guarda a una llista inmutable de les altures de 5 persones ( valors Float )
-  Tens d'obtindre el promig d'aquestes, Comptar cuantes persones son mes altes que el promig i cuantes son mes baixes. ( [Solucio]() )
+  Tens d'obtindre el promig d'aquestes, Comptar cuantes persones son mes altes que el promig i cuantes son mes baixes. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema3/src/main/kotlin/Main.kt) )
