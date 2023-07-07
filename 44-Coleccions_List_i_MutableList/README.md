@@ -51,7 +51,7 @@ Imprimir cuantes persones son majors d'edat.
   Defineix una llista mutable amb tres treballadors.
   Imprimeix les dades dels treballadors.
   Calcula cuan gasta l'empresa en salaris.
-  Afegeix un nou treballador a la llista i calcular novament els salaris. ( [Solucio]() )
+  Afegeix un nou treballador a la llista i calcular novament els salaris. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema2/src/main/kotlin/Main.kt) )  ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema2/src/main/kotlin/MainAlternatiu.kt) )
 
 * Carrega per teclat i guarda a una llista inmutable les altures de 5 persones ( valors Float )
   Tens d'obtindre el promig d'aquestes, Comptar cuantes persones son mes altes que el promig i cuantes son mes baixes. ( [Solucio]() )
