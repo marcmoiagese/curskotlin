@@ -6,7 +6,7 @@ L'estructura de dades Map utilitza una clau per accedir a un valor. El subindex 
 
  * Una agenda personal també la podem representar com un Map. La data sería la clau i les activitats d'aquesta data sería el valor.
 
-Un conjunt d'usuaris d'un lloc web podem guardarlo en un Map. El nom del usuari sería la clau i com a valor podríam guardar el seu correu, clau, dates de login, etc.
+ * Un conjunt d'usuaris d'un lloc web podem guardarlo en un Map. El nom del usuari sería la clau i com a valor podríam guardar el seu correu, clau, dates de login, etc.
 
 Hi ha molts problemes de la realitat que es poden representar mitjançant un Map.
 
