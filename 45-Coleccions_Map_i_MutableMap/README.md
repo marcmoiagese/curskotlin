@@ -73,7 +73,7 @@ Farem una aplicació que ens permeti crear un diccionari ingles/català. La clau
 - Listat complet del diccionari.
 - Introduirem per teclat una paraula amb ingles i si existeix al diccionari ensenyara la seva traducció.
 
-## [Exemple 4]()
+## [Exemple 4](https://github.com/marcmoiagese/curskotlin/blob/master/45-Coleccions_Map_i_MutableMap/Exemple4/src/main/kotlin/Main.kt)
 
 Farem un programa que permeti caregar un codi de producte com clau en un Map. Guardarem per aquesta clau un objecte de classe Producte que defineixi com a propietats el nom del producte, el seu preu i la cantitat en stock.
 Immplementa les seguents activitats.
