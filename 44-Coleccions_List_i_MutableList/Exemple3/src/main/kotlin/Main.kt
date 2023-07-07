@@ -3,6 +3,7 @@
  */
 
 fun main(args: Array<String>) {
+    // Declarem una llista mutable amb els seus elements inicials
     val edats: MutableList<Int> = mutableListOf(23, 67, 12, 35, 12)
 
     println("Llista d'edats")
