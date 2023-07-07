@@ -59,7 +59,7 @@ Crea un mapa que permeti guardar 5 articles,  utilitza com a clau el nom del pro
 - Imprimeix el dicconari sencer
 - Mostra la cantitat d'articles amb preu superior a 20
 
-## [Exemple 3]()
+## [Exemple 3](https://github.com/marcmoiagese/curskotlin/blob/master/45-Coleccions_Map_i_MutableMap/Exemple3/src/main/kotlin/Main.kt)
 
 Farem una aplicació que ens permeti crear un diccionari ingles/català. La clau es la paraula amb ingles i el valor es la paraula en català. crearem les seguents funcions:
 - Carregarem el diccionari (  introduin per teclat la paraula inglesa i la seva traducció al català)
