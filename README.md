@@ -68,7 +68,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [42- Valors nuls a les variables](https://github.com/marcmoiagese/curskotlin/tree/master/42-valors_nuls_a_les_variables)
 - [43- Coleccions](https://github.com/marcmoiagese/curskotlin/tree/master/43-Coleccions)
 - [44- Coleccions: List i MutableList](https://github.com/marcmoiagese/curskotlin/tree/master/44-Coleccions_List_i_MutableList)
-- 45- Coleccions: Map i MutableMap
+- [45- Coleccions: Map i MutableMap](https://github.com/marcmoiagese/curskotlin/tree/master/45-Coleccions_Map_i_MutableMap)
 - 46- Coleccions: Set i MutableSet
 - 47- Package i Import
 - 48- Corrutines
