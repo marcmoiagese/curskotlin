@@ -48,6 +48,13 @@ public infix fun <A, B> A.to(that: B): Pair<A, B> = Pair(this, that)
 
 Mes endavan veurem funciona amb la notacio infix i amb parametres generics. Si vols coneixer totes les propietats i metodes de Map pots visitar la documentació de la [biblioteca estandard](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/) de Kotlin
 
+Per generar Map que siguin mutables, ho podem fer amb MutableMap seguin la mateixa logica
+
+```kotlin
+val nomDeLaVariable: MutableMap<String, String> = mutableMapOf()
+```
+podem veure totes les propietats de MutableMap a la [llibreria estandar](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/) de Kotlin
+
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/45-Coleccions_Map_i_MutableMap/Exemple1/src/main/kotlin/Main.kt)
 
 Al bloc principal del proframa definirem un Map inmutable que guardi els noms de paisos com clau i com valor la cantitat de habitans del país.
@@ -66,4 +73,11 @@ Farem una aplicació que ens permeti crear un diccionari ingles/català. La clau
 - Listat complet del diccionari.
 - Introduirem per teclat una paraula amb ingles i si existeix al diccionari ensenyara la seva traducció.
 
+## [Exemple 4]()
 
+Farem un programa que permeti caregar un codi de producte com clau en un Map. Guardarem per aquesta clau un objecte de classe Producte que defineixi com a propietats el nom del producte, el seu preu i la cantitat en stock.
+Immplementa les seguents activitats.
+- Carrega de dades al Map.
+- Llista completa de productes.
+- Consulta d'un producte per la seva clau, imprimir el nom, preu i stock.
+- Cantitat de productes que tinguin un stock amb un valor 0.
