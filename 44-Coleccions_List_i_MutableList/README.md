@@ -10,6 +10,12 @@ Podem crear una llista inmutable de la següent manera
 var nomVariable: List<TipusDada> = lostOf("Diferents", "Elements", "de", "la", "llista")
 ```
 
+D'altra banda, podem crear llistes mutables, de la següent manera.
+
+```kotlin
+
+```
+
 Podem veure mes propietats i metodes de List ho podem veure des de la documentació de la [llibreria estándard](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/) de Kotlin.
 
 ## [Problema 1](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Exemple1/src/main/kotlin/Main.kt)
