@@ -45,7 +45,7 @@ Imprimir cuantes persones son majors d'edat.
 
 * Crea una llista inmutable de 100 enters amb valors aleatoris compresos entre 0 i 20.
   Conta cuants hi ha compresos entre 1 i 4, 5 i 8  i cuants entre 10 i 13
-  Imprimir si el valor 20 es troba dins la llista. ( [Solucio]() )
+  Imprimir si el valor 20 es troba dins la llista. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema1/src/main/kotlin/Main.kt) ) ( [Solucio 2](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema1/src/main/kotlin/MainAlternatiu.kt) )
 
 * Crea una classe que representi un treballador. Defineix com a propietats el seu nom i el seu salari.
   Defineix una llista mutable amb tre treballadors.
