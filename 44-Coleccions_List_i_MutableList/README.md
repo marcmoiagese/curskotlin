@@ -48,7 +48,7 @@ Imprimir cuantes persones son majors d'edat.
   Imprimir si el valor 20 es troba dins la llista. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema1/src/main/kotlin/Main.kt) ) ( [Solucio 2](https://github.com/marcmoiagese/curskotlin/blob/master/44-Coleccions_List_i_MutableList/Problema1/src/main/kotlin/MainAlternatiu.kt) )
 
 * Crea una classe que representi un treballador. Defineix com a propietats el seu nom i el seu salari.
-  Defineix una llista mutable amb tre treballadors.
+  Defineix una llista mutable amb tres treballadors.
   Imprimeix les dades dels treballadors.
   Calcula cuan gasta l'empresa en salaris.
   Afegeix un nou treballador a la llista i calcular novament els salaris. ( [Solucio]() )
