@@ -13,22 +13,25 @@ data class Assignatura ( val nom: String, val nota: Int)
 
 fun carregar (alumnes: MutableMap<Int, MutableList<Assignatura>>){
     println("Cuants alumnes carregaras?: ")
-    val cant = readln().toInt()
+    val cant = readln().toInt() // Recollim la cantitat d'alumnes que carregarem
 
+    // Procedim a la carrega de dades del alumne
     for(i in 1..cant){
         print("Introdueix el  DNI")
         val dni = readln().toInt()
+        // Creem una llista mutable on guardarem les assignatures i les seves notes
         val llistaAssignatures = mutableListOf<Assignatura>()
         do{
             print("Introdueix Assignatura del alumne: ")
             val nom = readln()
             print("Introdueix nota: ")
             val nota = readln().toInt()
-            llistaAssignatures.add(Assignatura(nom,nota))
+            llistaAssignatures.add(Assignatura(nom,nota)) // Afegim el nom i la nota dins de la llista
             print("Introduir una altra nota [si/no]: ")
             val opcio = readln()
         } while (opcio == "si")
-        alumnes[dni] = llistaAssignatures
+
+        alumnes[dni] = llistaAssignatures // Cuan sortim del bucle insertem la llista dins del Map d'assignatures
     }
 }
 
@@ -58,6 +61,7 @@ fun consultaPerDNI (alumne: MutableMap<Int, MutableList<Assignatura>>){
 }
 
 fun main(args: Array<String>) {
+    // Definim un Map on la seva clau es un enter pero el seu valor es una llista mutable amb elements de classe Assignatura
     val alumnes: MutableMap<Int, MutableList<Assignatura>> = mutableMapOf()
     carregar(alumnes)
     imprimir(alumnes)
