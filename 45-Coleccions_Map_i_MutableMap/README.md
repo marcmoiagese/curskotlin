@@ -91,3 +91,14 @@ Crearem les seguents funcions:
 - Carrega els alumnes ( de cada alumne solicitarem el seu DNI i els noms de les materies i les seves notes)
 - Llista de tots els alumnes amb les seves notes.
 - Consulta d'un alumne pel seu dni, mostrar les materies que cursa i les seves notes.
+
+## Problemes
+
+- Fes una agenda. Utilitza un MutableMap on la clau sigui de la classe Data:
+  ```kotlin
+     data class Data(val dia: Int, val mes: Int, val any: Int)
+  ```
+  Com a valor al mapa guardarem un String. Implementa les següents funcions.
+  1- Carrega de dades a l'agenda.
+  2- Llistat complert de l'agenda.
+  3- Consulta d'una data.
