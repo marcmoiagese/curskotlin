@@ -99,6 +99,6 @@ Crearem les seguents funcions:
      data class Data(val dia: Int, val mes: Int, val any: Int)
   ```
   Com a valor al mapa guardarem un String. Implementa les següents funcions.
-  1- Carrega de dades a l'agenda.
-  2- Llistat complert de l'agenda.
-  3- Consulta d'una data. ( [Solucio]() )
+  - Carrega de dades a l'agenda.
+  - Llistat complert de l'agenda.
+  - Consulta d'una data. ( [Solucio]() )
