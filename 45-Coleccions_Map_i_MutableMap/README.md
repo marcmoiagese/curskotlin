@@ -101,4 +101,4 @@ Crearem les seguents funcions:
   Com a valor al mapa guardarem un String. Implementa les següents funcions.
   1- Carrega de dades a l'agenda.
   2- Llistat complert de l'agenda.
-  3- Consulta d'una data.
+  3- Consulta d'una data. ( [Solucio]() )
