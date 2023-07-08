@@ -81,3 +81,13 @@ Immplementa les seguents activitats.
 - Llista completa de productes.
 - Consulta d'un producte per la seva clau, imprimir el nom, preu i stock.
 - Cantitat de productes que tinguin un stock amb un valor 0.
+
+## [Exemple 5]()
+
+Volem guardar les dades de N alumnes (n s'introdueix per teclat). Definirem un MutableMap en que la seva clau sigui el numero de document del alumne.
+Com a valor guardarem una llista amb components de la classe Materia on guardarem el nom de la materia i la seva nota.
+
+Crearem les seguents funcions:
+- Carrega els alumnes ( de cada alumne solicitarem el seu DNI i els noms de les materies i les seves notes)
+- Llista de tots els alumnes amb les seves notes.
+- Consulta d'un alumne pel seu dni, mostrar les materies que cursa i les seves notes.
