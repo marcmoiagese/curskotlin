@@ -69,7 +69,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [43- Coleccions](https://github.com/marcmoiagese/curskotlin/tree/master/43-Coleccions)
 - [44- Coleccions: List i MutableList](https://github.com/marcmoiagese/curskotlin/tree/master/44-Coleccions_List_i_MutableList)
 - [45- Coleccions: Map i MutableMap](https://github.com/marcmoiagese/curskotlin/tree/master/45-Coleccions_Map_i_MutableMap)
-- 46- Coleccions: Set i MutableSet
+- [46- Coleccions: Set i MutableSet](https://github.com/marcmoiagese/curskotlin/tree/master/46-Coleccions_Set_i_MutableSet)
 - 47- Package i Import
 - 48- Corrutines
 - 49- Corrutines: launch i runBlocking
