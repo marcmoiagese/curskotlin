@@ -82,7 +82,7 @@ Immplementa les seguents activitats.
 - Consulta d'un producte per la seva clau, imprimir el nom, preu i stock.
 - Cantitat de productes que tinguin un stock amb un valor 0.
 
-## [Exemple 5]()
+## [Exemple 5](https://github.com/marcmoiagese/curskotlin/blob/master/45-Coleccions_Map_i_MutableMap/Exemple5/src/main/kotlin/Main.kt)
 
 Volem guardar les dades de N alumnes (n s'introdueix per teclat). Definirem un MutableMap en que la seva clau sigui el numero de document del alumne.
 Com a valor guardarem una llista amb components de la classe Materia on guardarem el nom de la materia i la seva nota.
