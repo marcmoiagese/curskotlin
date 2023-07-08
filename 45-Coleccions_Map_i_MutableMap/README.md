@@ -101,4 +101,4 @@ Crearem les seguents funcions:
   Com a valor al mapa guardarem un String. Implementa les següents funcions.
   - Carrega de dades a l'agenda.
   - Llistat complert de l'agenda.
-  - Consulta d'una data. ( [Solucio]() )
+  - Consulta d'una data. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/45-Coleccions_Map_i_MutableMap/Problema1/src/main/kotlin/Main.kt) )
