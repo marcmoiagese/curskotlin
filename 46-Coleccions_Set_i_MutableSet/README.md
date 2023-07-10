@@ -11,7 +11,13 @@ també pel [Set](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections
 
 Crearem un conjunt mutable (MutableSet) amb una serie de valors Int. Probarem les propietats i metodes principals per administrar un conjunt.
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/46-Coleccions_Set_i_MutableSet/Exemple2/src/main/kotlin/Main.kt)
 
 Crearem un conjunt inmutable que guardi els festius d'enguany.
 Després, introduirem per teclat una data i verificarem si es festiu o no.
+
+## Problemes
+
+- Defineix un MutableSet que guardi 6 valors aleatoris compresos entre 1 i 50. L'objecte de tipus MutableSet representa una butlleta de lotaría. 
+  Genera valors aleatoris compresos entre 1 i 5, que siguin tots diferents i aturarse quan surtin tots els que conté la butlleta de loteria.
+  Ensenya cuants numeros han tingut que sortejarse fins que es completa el cartró. ( [Solucio]() )
