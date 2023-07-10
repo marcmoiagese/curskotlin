@@ -20,4 +20,4 @@ Després, introduirem per teclat una data i verificarem si es festiu o no.
 
 - Defineix un MutableSet que guardi 6 valors aleatoris compresos entre 1 i 50. L'objecte de tipus MutableSet representa una butlleta de lotaría. 
   Genera valors aleatoris compresos entre 1 i 5, que siguin tots diferents i aturarse quan surtin tots els que conté la butlleta de loteria.
-  Ensenya cuants numeros han tingut que sortejarse fins que es completa el cartró. ( [Solucio]() )
+  Ensenya cuants numeros han tingut que sortejarse fins que es completa el cartró. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/46-Coleccions_Set_i_MutableSet/Problema1/src/main/kotlin/Main.kt) )
