@@ -71,7 +71,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [45- Coleccions: Map i MutableMap](https://github.com/marcmoiagese/curskotlin/tree/master/45-Coleccions_Map_i_MutableMap)
 - [46- Coleccions: Set i MutableSet](https://github.com/marcmoiagese/curskotlin/tree/master/46-Coleccions_Set_i_MutableSet)
 - [47- Package i Import](https://github.com/marcmoiagese/curskotlin/tree/master/47-Package_i_Import)
-- 48- Corrutines
+- [48- Corrutines](https://github.com/marcmoiagese/curskotlin/tree/master/48-Corrutines)
 - 49- Corrutines: launch i runBlocking
 - 50- Corrutines: runBlocking i coroutineScope
 - 51- Corrutines: Funcions de supresió (suspend fun)
