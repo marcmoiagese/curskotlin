@@ -4,6 +4,7 @@
 
 
 fun main(args: Array<String>) {
+    // Creem un MutableSet amb elements de tipus Int i guardem 5 enters
     val conjunt1: MutableSet<Int> = mutableSetOf(2, 7, 20, 150, 3)
 
     println("Llista completa del conjunt")
