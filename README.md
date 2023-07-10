@@ -24,7 +24,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 
 ## Index Programacio amb Kotlin
 
-- [1- Hola Mon amb Kotlin](https://github.com/marcmoiagese/curskotlin/tree/master/1-hola-mon)
+- [1- Hola Mon amb Kotlin](https://github.com/marcmoiagese/curskotlin/tree/master/1-Hola_mon)
 - [2- Tipus de variables](https://github.com/marcmoiagese/curskotlin/tree/master/2-Tipus_de_variables)
 - [3- Entrada de dades per consola](https://github.com/marcmoiagese/curskotlin/tree/master/3-Entrada_dades_consola)
 - [4- Condicional If](https://github.com/marcmoiagese/curskotlin/tree/master/4-Condicional_if)

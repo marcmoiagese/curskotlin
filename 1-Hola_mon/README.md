@@ -30,4 +30,4 @@ fun main(args: Array<String>) {
 }
 ```
 
-[Exemple de primer programa en Kotlin](https://github.com/marcmoiagese/curskotlin/blob/master/1-hola-mon/src/main/kotlin/Main.kt)
+[Exemple de primer programa en Kotlin](https://github.com/marcmoiagese/curskotlin/blob/master/1-Hola_mon/Exemple1/src/main/kotlin/Main.kt)
