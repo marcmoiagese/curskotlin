@@ -29,18 +29,18 @@ El primer pas, despres de crear el nou projecte amb IntelliJ IDEA ens posem sobr
 
 Li indiquem que volem crear un nou paquet anomenat "matematiques"
 
-[IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/2.jpg)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/2.jpg)
 
 Ara, dins d'aquest directori, procedim a crear un arxiu dins d'aquesta nova carpeta premen boto dret i despres premen sobre Kotlin Class/File
 
-[IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/3.jpg)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/3.jpg)
 
 I l'anomenare funcions. Tinguis en compte que un paquet pot contenir molts arxius.
 
-[IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/4.jpg)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/4.jpg)
 
 Ara que ja tenim l'arxiu creat, podem comensar a crear el seu contingut
 
-[IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/5.jpg)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/img/5.jpg)
 
 
