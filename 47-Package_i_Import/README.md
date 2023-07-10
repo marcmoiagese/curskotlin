@@ -127,4 +127,4 @@ fun main(args: Array<String>) {
   }
   ```
 
-  Al programa principal que anomenarem Principal.kt importarem el paquet entradateclat i cridarem les seves funcions. ( [Solucio]() )
+  Al programa principal que anomenarem Principal.kt importarem el paquet entradateclat i cridarem les seves funcions. ( [Solucio](https://github.com/marcmoiagese/curskotlin/blob/master/47-Package_i_Import/Problema1/src/main/kotlin/Principal.kt) )
