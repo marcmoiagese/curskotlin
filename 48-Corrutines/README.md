@@ -11,4 +11,36 @@ Cuan volem treballar amb corutines a Kotlin hem d'importar la biblioteca kotlinx
 ## [Exemple 1]()
 
 Importarem la biblioteca per treballar amb corutines amb un projecte Kotlin. Implementarem una aplicació minima que ens mostri numeros del 1 al 10 ensenyan d'un a un cada 1 segon. I ho farem a través d'una corrutina.
+
+Des de l'entorn IntelliJ IDEA crearem un nou projecte.
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/1.jpg)
+
+Despres buscarem el fitxer build.gradle.kts i dins de dependences li afegirem la següent línea
+
+```kotlin
+implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
+```
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/2.jpg)
+
+Ara ja podem comensar a escriure el codi dins el Main.kt
+
+```kotlin
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+fun main(args: Array<String>) {
+    GlobalScope.launch {
+        for(x in 1..10) {
+            print("$x -")
+            delay(1000)
+        }
+    }
+    println("Bloquegem el fil principal del programa al executar readline")
+    readline()
+}
+```
+
  
