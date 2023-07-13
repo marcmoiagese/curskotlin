@@ -12,17 +12,35 @@ Cuan volem treballar amb corutines a Kotlin hem d'importar la biblioteca kotlinx
 
 Importarem la biblioteca per treballar amb corutines amb un projecte Kotlin. Implementarem una aplicació minima que ens mostri numeros del 1 al 10 ensenyan d'un a un cada 1 segon. I ho farem a través d'una corrutina.
 
-Des de l'entorn IntelliJ IDEA crearem un nou projecte.
+Des de l'entorn IntelliJ IDEA crearem un nou projecte, i un cop dins a dal a la dreta prem sobre l'icona del engranatge
 
-![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/1.jpg)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/1.PNG)
 
-Despres buscarem el fitxer build.gradle.kts i dins de dependences li afegirem la següent línea
+Despres prem dins de "Project Structure"
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/2.PNG)
+
+A la nova finestra que s'obrirà, prem sobre "Modules"
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/3.PNG)
+
+I afegirem un nou premen sobre el botó amb el signe +
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/4.PNG)
+
+Escollirem "Library > From Maven.."
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/5.PNG)
+
+A la finestra que sen's obrirà li posem la versió mes recent per importar la pots consultar aqui, ara utilitzarem aquesta:
 
 ```kotlin
 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
 ```
 
-![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/2.jpg)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/6.PNG)
+
+Ens mostrarà una llista amb el contingut que importarà, simplement li donem a OK i després Apply i ok novament.
 
 Ara ja podem comensar a escriure el codi dins el Main.kt
 
