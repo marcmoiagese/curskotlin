@@ -60,5 +60,7 @@ fun main(args: Array<String>) {
     readline()
 }
 ```
+Si executem aquest codi, podem observar per pantalla el següent resultat
 
+![IMG]((https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/7.gif)
  
