@@ -8,7 +8,7 @@ A més a més d'impedir que l'aplicació es bloquegi fins que s'acabi el procés
 
 Cuan volem treballar amb corutines a Kotlin hem d'importar la biblioteca kotlinx.corutines, podem visitar el lloc web on es publiquen les [ultimes actualitzacions](https://github.com/Kotlin/kotlinx.coroutines).
 
-## [Exemple 1]()
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/Exemple1/src/main/kotlin/Main.kt)
 
 Importarem la biblioteca per treballar amb corutines amb un projecte Kotlin. Implementarem una aplicació minima que ens mostri numeros del 1 al 10 ensenyan d'un a un cada 1 segon. I ho farem a través d'una corrutina.
 
