@@ -79,5 +79,5 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 
 ## Pots seguir amb:
 
--  [Programacio Kotlin per Android]()
+-  [Programacio Kotlin per Android](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android)
 
