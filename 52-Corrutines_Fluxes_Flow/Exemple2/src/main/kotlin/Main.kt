@@ -5,18 +5,18 @@ data class Persona(val nom: String, val edat: Int)
 
 
 fun retornaPersona(): Flow<Persona> = flow {
-    val lista = listOf(
+    val llista = listOf(
         Persona("Marti", 1),
         Persona("Arnald", 33),
         Persona("Anna", 33)
     )
-    for (elemento in lista) {
+    for (element in llista) {
         delay(1000)
-        emit(elemento)
+        emit(element)
     }
 }
 
 fun main() = runBlocking {
-    async { retornarPersona().collect { persona -> println("${persona.nombre} ${persona.edad}") }}
+    async { retornaPersona().collect { persona -> println("${persona.nom} ${persona.edat}") }}
     println("Fin de la main")
 }
