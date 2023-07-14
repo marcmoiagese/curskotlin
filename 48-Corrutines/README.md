@@ -68,13 +68,9 @@ Un cop introduit això ens apareixera (normalment a la part superior dreta) aque
 
 ![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav2.PNG)
 
-Si no surt, a la barra lateral dreta prem sobre Maven
+Si no surt, a la barra lateral dreta prem sobre Maven, i despres sobre el boto sincronitzar.
 
-![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav3.PNG)
-
-i sobre el boto sincronitzar
-
-![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav4.PNG)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav3.PNG)![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav4.PNG)
 
 Això ens descarregara el que nesecita, i ja podem comensar a treballar amb corrutines.
 
@@ -88,7 +84,7 @@ implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
 
 I, de la mateixa manera que hem fet amb Maven, premem al boto on posa Gradle de la barra dreta i despres al boto sincronitzar.
 
-![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav1.PNG)![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav2.PNG)
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/gradle1.PNG)![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/gradle2.PNG)
 
 Això ens descarregara el que nesecita, i ja podem comensar a treballar amb corrutines.
 
