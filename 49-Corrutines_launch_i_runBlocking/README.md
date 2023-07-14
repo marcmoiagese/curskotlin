@@ -25,3 +25,4 @@ fun main(args: Array<String>) = runBlocking {
 Cuan executem el codi, obtenim el següent resultat:
 
 
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/49-Corrutines_launch_i_runBlocking/img/ex1.gif)
