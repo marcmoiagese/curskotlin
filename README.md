@@ -75,7 +75,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [49- Corrutines: launch i runBlocking](https://github.com/marcmoiagese/curskotlin/tree/master/49-Corrutines_launch_i_runBlocking)
 - [50- Corrutines: runBlocking i coroutineScope](https://github.com/marcmoiagese/curskotlin/tree/master/50-corrutines_runBlocking_i_coroutineScope)
 - [51- Corrutines: Funcions de supresió (suspend fun)](https://github.com/marcmoiagese/curskotlin/tree/master/51-Corrutines_funcions_de_suspencio_suspend_fun)
-- 52- Corrutines: Fluxes (Flow)
+- [52- Corrutines: Fluxes (Flow)](https://github.com/marcmoiagese/curskotlin/tree/master/52-Corrutines_Fluxes_Flow)
 
 ## Index Programacio Kotlin per Android
 
