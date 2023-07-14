@@ -140,3 +140,41 @@ La creació de la corrutina s'aconcegueix cridan la funció "launch" envian-li u
 ## [Exemple 2]()
 
 En aquest exemple, veurem com executem 2 corrutines, a la primera ensenyarem els numeros del 1 al 10 i a la segona els numeros del 11 al 20. Crearem un nou projecte i afegirem la biblioteca que ens permet treballar amb corrutines tal i com hem vist abans.
+
+```kotlin
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+fun main(args: Array<String>) {
+    GlobalScope.launch {
+        for(x in 1..10) {
+            print("$x ")
+            delay(1000)
+        }
+    }
+    GlobalScope.launch {
+        for(x in 11..20) {
+            print("$x ")
+            delay(1000)
+        }
+    }
+    readLine()
+}
+```
+
+El resultat del codi amb les dues corrutines quedaria així:
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/ex2.gif)
+
+Fixat que les dues corrutines s'estan executan de forma simultanea, es a dir, no fa falta que el primer proces acabi per comensar el següent, apareixen els resultats de cada una intercalats a mesura que cada una d'elles es va executan.
+
+## Problemes
+
+- Fes una aplicació que al seu fil principal es generi un valor aleatori entre 1 i 100:
+  ```kotlin
+   fun main(args: Array) {
+       val adivina = Random.nextInt(1, 100)
+  ```
+  Després crear una corrutina on la mateixa te d'encertar el numero aleatori generat al fil principal. S'ha de generar un numero aleatori, la primera vegada entre 1 i 100, després validar si el numero aleatori a encertar del fil principal es major o menor. Si es igual imprimir el missatge que ha guanyat, i si no, s'ha d'aturar per 500 milisegons, i procedir a repetir la generació d'un altre numero aleatori, pero aquest cop acotat a la resposta de si era major o menor.
+  Repetir el procés fins que guanyi.
