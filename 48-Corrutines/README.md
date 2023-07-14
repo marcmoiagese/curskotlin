@@ -8,9 +8,13 @@ A més a més d'impedir que l'aplicació es bloquegi fins que s'acabi el procés
 
 Cuan volem treballar amb corutines a Kotlin hem d'importar la biblioteca kotlinx.corutines, podem visitar el lloc web on es publiquen les [ultimes actualitzacions](https://github.com/Kotlin/kotlinx.coroutines).
 
-## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/Exemple1/src/main/kotlin/Main.kt)
+Per poder treballar amb corrutines, amb Kotlin nesecitem importar la llibreria que ens permet treballar amb elles, Amb IntelliJ IDEA tenim diverses maneres. Cuan creem un projecte nou una de les opcions que podem escollir es el "Build system" tenim tres opcions, anem a veure com fer-ho amb les tres.
 
-Importarem la biblioteca per treballar amb corutines amb un projecte Kotlin. Implementarem una aplicació minima que ens mostri numeros del 1 al 10 ensenyan d'un a un cada 1 segon. I ho farem a través d'una corrutina.
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/buildsystem.PNG)
+
+## Build System: IntelliJ
+
+Importarem la biblioteca per treballar amb corutines amb un projecte Kotlin.
 
 Des de l'entorn IntelliJ IDEA crearem un nou projecte, i un cop dins a dal a la dreta prem sobre l'icona del engranatge
 
@@ -35,14 +39,47 @@ Escollirem "Library > From Maven.."
 A la finestra que sen's obrirà li posem la versió mes recent per importar la pots consultar [aqui](https://github.com/Kotlin/kotlinx.coroutines), ara utilitzarem aquesta:
 
 ```kotlin
-implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
+org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2
 ```
 
 ![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/6.PNG)
 
 Ens mostrarà una llista amb el contingut que importarà, simplement li donem a OK i després Apply i ok novament.
 
+## Build System: Maven
+
+Des de l'entorn IntelliJ IDEA crearem un nou projecte escollint Maven com a build system. un cop carregat obrirem el fitxer pom.xml
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav1.PNG)
+
+I anirem a la part de les dependecies afegint dins del bloc <dependencies></dependencies> la crida a la llibreria
+
+```xml
+<dependency>
+   <groupId>org.jetbrains.kotlinx</groupId>
+   <artifactId>kotlinx-coroutines-core</artifactId>
+   <version>1.7.2</version>
+</dependency>
+```
+
+Un cop introduit això ens apareixera (normalment a la part superior dreta) aquesta finestreta, si li donem al botó es descarregara les dependencies
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav2.PNG)
+
+Si no surt, a la barra lateral dreta prem sobre Maven
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav3.PNG)
+
+i sobre el boto sincronitzar
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav4.PNG)
+
+
 Ara ja podem comensar a escriure el codi dins el Main.kt
+
+## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/Exemple1/src/main/kotlin/Main.kt)
+
+Implementarem una aplicació minima que ens mostri numeros del 1 al 10 ensenyan d'un a un cada 1 segon. I ho farem a través d'una corrutina.
 
 ```kotlin
 import kotlinx.coroutines.GlobalScope
