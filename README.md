@@ -77,44 +77,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [51- Corrutines: Funcions de supresió (suspend fun)](https://github.com/marcmoiagese/curskotlin/tree/master/51-Corrutines_funcions_de_suspencio_suspend_fun)
 - [52- Corrutines: Fluxes (Flow)](https://github.com/marcmoiagese/curskotlin/tree/master/52-Corrutines_Fluxes_Flow)
 
-## Index Programacio Kotlin per Android
+## Pots seguir amb:
 
-- 1- Instalacio de les eines per programar per android amb Kotlin
-- 2- Passes a seguir per crear el primer prijecte amb Android Studio amb Kotlin
-- 3- Capturar el click d'un botó
-- 4- Controls RadioGroup i  RadioButton
-- 5- Control CheckBox
-- 6- Control Spinner
-- 7- Control ListView ( Amb una llista de tipus String )
-- 8- Control ImageButton
-- 9- Notificacions senzilles mitjançant la classe Toast
-- 10- Control EditText
-- 11- Executar una segona "Activity"
-- 12- Executar una segona "activity" i enviarli paràmetres
-- 13- Enmagatzemament de dades mitjançant la classe SharedPreferences
-- 14- Enmagatzemament de dades en un arxiu de text a la memoria interna
-- 15- Enmagatzemament de dades en un arxiu de text localitzat a una tarja SD
-- 16- Enmagatzemament a una base de dades SQLite
-- 17- Instalació del programa Android a un dispositiu real
-- 18- Layout(LinearLayout)
-- 19- Layout(TableLayout)
-- 20- Layout(FrameLayout)
-- 21- Layout(ScrollView  i LinearLayout)
-- 22- Icona de l'aplicació
-- 23- Reproducció d'audio (Arxiu contingut a l'aplicació)
-- 24- Reproducció, pausa, continuació  i aturada d'un arxiu d'audio
-- 25- Reproducció d'audio (arxiu contingut en una tarja SD)
-- 26- Reproducció d'audio (arxiu localitzat a internet)
-- 27- Reproducció d'audio utilitzan el reproductor del propi Android ( mitjançant Intent)
-- 28- Grabació d'audio mitjançant el grabador que proveeix Android  ( Mitjançant Intent )
-- 29- Captura d'audio  mitjançant la classe MediaRecorder
-- 30- Dibuixar: Graficar pixels
-- 31- Dibuixar: pintar fons i dibuixar línies
-- 32- Dibuixar: rectangles
-- 33- Dibuixar: Cercles
-- 34- Dibuixar: ovals
-- 35- Dibuixar: text
-- 36- Dibuixar: text amb fonts externes 
-- 37- Dibuixar: text sobre un cami
-- 38- Dibuixar: una imatge
-- 39- Event touch: Dibuixar un cercle
+-  [Programacio Kotlin per Android]()
+
