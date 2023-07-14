@@ -73,7 +73,7 @@ Tambe podém utilitzar l'entorn [IntelliJ IDEA](https://www.jetbrains.com/idea/?
 - [47- Package i Import](https://github.com/marcmoiagese/curskotlin/tree/master/47-Package_i_Import)
 - [48- Corrutines](https://github.com/marcmoiagese/curskotlin/tree/master/48-Corrutines)
 - [49- Corrutines: launch i runBlocking](https://github.com/marcmoiagese/curskotlin/tree/master/49-Corrutines_launch_i_runBlocking)
-- 50- Corrutines: runBlocking i coroutineScope
+- [50- Corrutines: runBlocking i coroutineScope](https://github.com/marcmoiagese/curskotlin/tree/master/50-corrutines_runBlocking_i_coroutineScope)
 - 51- Corrutines: Funcions de supresió (suspend fun)
 - 52- Corrutines: Fluxes (Flow)
 
