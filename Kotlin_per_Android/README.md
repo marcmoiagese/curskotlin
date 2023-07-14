@@ -4,7 +4,7 @@ L'objectiu d'aquest curs es iniciarse a la programació Kotlon dins l'entorn And
 
 ## Index
 
-- 1- Instalacio de les eines per programar per android amb Kotlin
+- [1- Instalacio de les eines per programar per android amb Kotlin](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/1-Instalacio_de_les_eines_per_programar_per_android_amb_Kotlin)
 - 2- Passes a seguir per crear el primer prijecte amb Android Studio amb Kotlin
 - 3- Capturar el click d'un botó
 - 4- Controls RadioGroup i  RadioButton
