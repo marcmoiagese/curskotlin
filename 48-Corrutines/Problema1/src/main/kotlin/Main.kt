@@ -2,7 +2,7 @@
  * Fes una aplicació que al seu fil principal es generi un valor aleatori entre 1 i 100:
  *
  *  fun main(args: Array) {
- *      val adivina = Random.nextInt(1, 100)
+ *      val encerta = Random.nextInt(1, 100)
  *
  * Després crear una corrutina on la mateixa te d'encertar el numero aleatori generat al fil principal.
  * S'ha de generar un numero aleatori, la primera vegada entre 1 i 100, després validar si el numero aleatori a encertar del fil principal es major o menor.
