@@ -63,4 +63,31 @@ fun main(args: Array<String>) {
 Si executem aquest codi, podem observar per pantalla el següent resultat
 
 ![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/7.gif)
- 
+
+El primer que veiem per pantalla es el missatge que crida a println:
+
+```kotlin
+println("Bloquegem el fil principal del programa al executar readline")
+```
+
+A continuació bloquegem el fil principal del nostre programa cridan la funció readLine, si el programa finalitza, totes les corrutines que s'han iniciat finalitzaran de manera automatica.
+
+```kotlin
+readLine()
+```
+Després podém comprobar que per pantalla comencen a apareixer els numeros del 1 al 10 d'un en un, lentament degut a la crida de la funció delay.
+
+La creació de la corrutina s'aconcegueix cridan la funció "launch" envian-li una funció lambda amb l'algoritme que volem executar de forma paralela al fil principal del nostre programa.
+
+```kotlin
+    GlobalScope.launch {
+        for(x in 1..10) {
+            print("$x -")
+            delay(1000)
+        }
+    }
+```
+
+## [Exemple 2]()
+
+En aquest exemple, veurem com executem 2 corrutines, a la primera ensenyarem els numeros del 1 al 10 i a la segona els numeros del 11 al 20. Crearem un nou projecte i afegirem la biblioteca que ens permet treballar amb corrutines tal i com hem vist abans.
