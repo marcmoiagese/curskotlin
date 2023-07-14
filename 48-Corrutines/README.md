@@ -137,7 +137,7 @@ La creació de la corrutina s'aconcegueix cridan la funció "launch" envian-li u
     }
 ```
 
-## [Exemple 2]()
+## [Exemple 2](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/Exemple2/src/main/kotlin/Main.kt)
 
 En aquest exemple, veurem com executem 2 corrutines, a la primera ensenyarem els numeros del 1 al 10 i a la segona els numeros del 11 al 20. Crearem un nou projecte i afegirem la biblioteca que ens permet treballar amb corrutines tal i com hem vist abans.
 
