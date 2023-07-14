@@ -46,6 +46,8 @@ org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2
 
 Ens mostrarà una llista amb el contingut que importarà, simplement li donem a OK i després Apply i ok novament.
 
+Això ens descarregara el que nesecita, i ja podem comensar a treballar amb corrutines.
+
 ## Build System: Maven
 
 Des de l'entorn IntelliJ IDEA crearem un nou projecte escollint Maven com a build system. un cop carregat obrirem el fitxer pom.xml
@@ -74,8 +76,22 @@ i sobre el boto sincronitzar
 
 ![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav4.PNG)
 
+Això ens descarregara el que nesecita, i ja podem comensar a treballar amb corrutines.
 
-Ara ja podem comensar a escriure el codi dins el Main.kt
+## Build System: Gradle ( No funciona amb Java 20 )
+
+Crearem un nou projecte escollin gradle com a build system i obrirem el fitxer build.gradle.kts i dins de dependencies afegirem la seguent linea
+
+```kotlin
+implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
+```
+
+I, de la mateixa manera que hem fet amb Maven, premem al boto on posa Gradle de la barra dreta i despres al boto sincronitzar.
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav1.PNG)![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/mav2.PNG)
+
+Això ens descarregara el que nesecita, i ja podem comensar a treballar amb corrutines.
+
 
 ## [Exemple 1](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/Exemple1/src/main/kotlin/Main.kt)
 
