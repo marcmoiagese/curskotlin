@@ -32,7 +32,7 @@ Escollirem "Library > From Maven.."
 
 ![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/48-Corrutines/img/5.PNG)
 
-A la finestra que sen's obrirà li posem la versió mes recent per importar la pots consultar aqui, ara utilitzarem aquesta:
+A la finestra que sen's obrirà li posem la versió mes recent per importar la pots consultar [aqui](https://github.com/Kotlin/kotlinx.coroutines), ara utilitzarem aquesta:
 
 ```kotlin
 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
