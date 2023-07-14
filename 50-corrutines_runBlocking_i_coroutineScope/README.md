@@ -30,3 +30,11 @@ suspend fun Tasques(num:Int) = coroutineScope {
     println("Esperan acabar les dues tasques $num")
 }
 ```
+
+Es importan notar que cuan cridem a 
+
+```kotlin
+Tasques(1)
+```
+
+La corrutina de la main es bloqueja fins que finalitza la funció de suspensió "Tasques", pero dins de la mateixa cuan es crida a les corrutines amb launch la funcio de suspencio continua i espera fins que totes les corrutines finalitzen.
