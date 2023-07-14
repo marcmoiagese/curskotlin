@@ -32,17 +32,3 @@ fun main() = runBlocking {
     retornaPersona().collect { persona -> println("${persona.nom} ${persona.edat}") }
 }
 ```
-
-![IMG]()
-
-Flow es una interficie mitjançant la crida a la funcio flow passem una funcio lambda on mitjansant la crida de la funcio emit retornem la dada que sera processada desde la crida a la duncio collect.
-
-Com que collect es una funció de suspenció, aquesta s'ha de cridar des d'un bloc de corrutina, en aquest cas dins de runBlocking.
-
-Podem imaginar la recuperacio de dades de persones que es troben en un servidor que requereix temps no trivial.
-
-Podem fer la crida a la funcio retornaPersona de manera asincrona per seguir amb l'execusio del fil principal del programa i no tenir que esperar la recuperació de totes les dades.
-
-```kotlin
-
-```
