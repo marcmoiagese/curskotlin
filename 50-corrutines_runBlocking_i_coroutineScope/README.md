@@ -30,6 +30,7 @@ suspend fun Tasques(num:Int) = coroutineScope {
     println("Esperan acabar les dues tasques $num")
 }
 ```
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/50-corrutines_runBlocking_i_coroutineScope/img/1.PNG)
 
 Es importan notar que cuan cridem a 
 
