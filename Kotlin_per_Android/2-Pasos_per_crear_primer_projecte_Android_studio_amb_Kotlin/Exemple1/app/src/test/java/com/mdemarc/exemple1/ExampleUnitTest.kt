@@ -1,4 +1,4 @@
-package com.example.exemple1
+package com.mdemarc.exemple1
 
 import org.junit.Test
 
