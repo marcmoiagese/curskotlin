@@ -54,4 +54,4 @@ I ja podem executar Run -> Run App o premen el triangle verd. Després d'una est
 
 ![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/2-Pasos_per_crear_primer_projecte_Android_studio_amb_Kotlin/img/10.PNG)
 
-No passa res si presionem el botó, ja que no li hem codificat cap event.
+Si presionem el botó no passara res, ja que no li hem codificat cap event.
