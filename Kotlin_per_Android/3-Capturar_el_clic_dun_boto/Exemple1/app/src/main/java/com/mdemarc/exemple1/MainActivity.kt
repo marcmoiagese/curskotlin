@@ -21,6 +21,6 @@ class MainActivity : AppCompatActivity() {
             val suma = nro1 + nro2
             tv1.text = "Resultat: ${suma.toString()}"
         }
-        
+
     }
 }
