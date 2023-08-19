@@ -4,31 +4,35 @@ Com a exemple farem un programa que permeti la carrega de dos numeros enters en 
 
 L'interficie visual, quedara semblan a la seguent captura:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/1.PNG)
 
 Crea un projecte nou i pas a pas explicaré com arribar al  resultat final. primer, elimina el TextView que apareix per defecte cuan es crea un projecte amb Android Studio. Un cop eliminat, des de la finestra "Palette" seleccionem la pestanya "Text" el control "Number" (es de la classe EditText) i l'arrosseguem a la finestra de diseny de la nostra interficie a la part superior esquerra.
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/2.PNG)
 
 Ara el seleccionem i a la finestra de propietats (Properties) especifiquem la propietat hint, posarem el text "Fot el primer valor"
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/3.PNG)
 
 També especificarem la propietat "id" i li assignarem el valor et1 que es el nom des del cual accedirem despres des de Kotlin. Ens apareixerà un dialeg on escollirem "Refactor", i també premerem l'icona de "Infer Constraints" per situar el control respecte als costats.
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/4.PNG)
 
 Repetim les passes anteriors per crear el segon EditText de tipus "Number", l'indicarem el id amb el nom et2 i la propietat hint amb el missatge "Fot el segon valor", el resultat visual ha de ser algo semblant a aixo:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/5.PNG)
 
 De la pestanya "Buttons" arrosseguem un control de tipus "Button"
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/6.PNG)
+
+Iniciem la propietat del text "Sumar" i la propietat id la deixem amb el valor ja creat anomenat button
+
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/7.PNG)
 
 Per acabar l'interficie  visual, arrosseguem  un component de tipus "TextView" de la pestanya "Text". Definirem la propietat id amb el valor "tv1" i la propietat text amb el text "Resultat".
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/8.PNG)
 
 Si a la finestra "Component Tree" veiem que hi ha algun objecte que mostra una icona de color vermell, el seleccionarem i pitjarem el boto de "Infer Constraints".
 
@@ -44,7 +48,7 @@ Fins ara hem treballat nomes amb l'arxiu xml (activity_main.xml) on es defineixe
 
 Obre el fitxer MainActivity.kt
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/9.PNG)
 
 La classe MainActivity hereda de la classe AppCompatActivity. La classe AppCompatActivity representa una finestra d'Android i conté tots els metodes necesaris per crear i mostrar els objectes que hem posat al fitxer xml.
 
@@ -136,7 +140,7 @@ Despres sumarem aquests valors i els mostrarem al text TextView
 
 Ara, quan introduim les dades, al presionar el botó, pareixera el resultat al TextView:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto/img/10.PNG)
 
 Per tal de simplificar mes el codi i que sigui mes concís, podem simplificar la part del clik del botó de la següent manera
 
