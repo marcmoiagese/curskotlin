@@ -6,13 +6,13 @@ En aquest exemple carregarem dos numeros dins de controls de tipus EditText. Imp
 
 El problema es semblant a l'anterior. Posarem  dos  controls EditText (Number) i configurarem les seves propietats id i hint. Per posar els controls de tipus RadioButton, primer hem  de posar un control de tipus RadioGroup. El trobaras a la paleta de components de la pestanya Buttons
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/4-Controla_RadioGroup_iRadioButton/img/1.PNG)
 
 Despres de posar el control RadioGroup  ajustarem el tamany amb el ratolí. Tambe definirem el seu id amb el valor grup1.
 
 Ara arrossegarem dos controls de la classe RadioButton de la pestanya "Buttons" dins del RadioGroup
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/4-Controla_RadioGroup_iRadioButton/img/2.PNG)
 
 Aquest problema requereix dos controls de tipus RadioButton.
 
@@ -40,14 +40,14 @@ A la finestra "Component Tree" el id definit per cada control (et1, et2, grup1, 
 
 També podem observar de quina classe és cada control visual i el text de la propietat text per a aquells controls als quals té sentit la seva inicialització.
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/4-Controla_RadioGroup_iRadioButton/img/3.PNG)
 
 Hem de resoldre el problema dels Constraints, si algun dels components de la finestra no te la seva ubicacio, premen el  botó "Infer Constraints" del control respectiu, o l'enllacem amb el ratolí.
 
 El codi fon de la clase  MainActivity.kt es:
 
 ```Kotlin
-    package XXX
+    package com.mdemarc.exemple1
 
     import androidx.appcompat.app.AppCompatActivity
     import android.os.Bundle
