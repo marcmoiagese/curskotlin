@@ -8,7 +8,7 @@ Posa dos controls de tipus EditText ("Number"). La propietat "hint" de cada comp
 
 El nou en aquest problema es l'inserció de dos objectes de la clase CheckBox que es troba a la pestanya "Buttons":
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/5-Control_CheckBox/img/1.PNG)
 
 Hem d'iniciar les propietats "text" per ensenyar un text i la propietat "id" per poder fer referencia al CheckBox al programa Kotlin.
 
@@ -16,7 +16,7 @@ Al primer CheckBox li definirem el seu id amb el valor check1 i el segon amb el 
 
 L'interficie gràfica final per aquest problema i els noms dels controls o components visuals els podem veure a la finestra "Component Tree":
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/5-Control_CheckBox/img/2.PNG)
 
 Tingues en compte que sempre hem de premer l'icona "Infer Constraints" per enllaçar els objectes i situarlos.
 
@@ -80,4 +80,4 @@ Cuan presionem el botó verifiquem cada CheckBox i concatenem amb una cadena la 
 
 Al executar el programa, obtindrem un resultat similar a:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/5-Control_CheckBox/img/3.PNG)

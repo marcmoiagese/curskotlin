@@ -8,7 +8,7 @@ L'objectiu d'aquest curs es iniciarse a la programació Kotlon dins l'entorn And
 - [2- Passes a seguir per crear el primer prijecte amb Android Studio amb Kotlin](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/2-Pasos_per_crear_primer_projecte_Android_studio_amb_Kotlin)
 - [3- Capturar el click d'un botó](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto)
 - [4- Controls RadioGroup i RadioButton](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/4-Controla_RadioGroup_iRadioButton)
-- 5- Control CheckBox
+- [5- Control CheckBox](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/5-Control_CheckBox)
 - 6- Control Spinner
 - 7- Control ListView ( Amb una llista de tipus String )
 - 8- Control ImageButton
