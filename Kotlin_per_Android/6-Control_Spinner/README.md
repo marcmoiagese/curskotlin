@@ -8,13 +8,13 @@ Farem la càrrega de dos numeros en controls de tipus EditText ("Number"). Impri
 
 Com pots veure, el que introduim nou en aquest control, es el formulari tipus Spinner que el pots veure a la pestanya "Containers".
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/6-Control_Spinner/img/1.PNG)
 
 Deixem la propietat id amb el valor spinner que es el valor per defecte que crea Android Studio al afegir l'objecte de la classe Spinner.
 
 A la seguent imatge, a la finestra "Component Tree" d'Android Studio, podem observar els objectes posats al formulari, els seus id i els seus textos. I de quina classe son.
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/6-Control_Spinner/img/2.PNG)
 
 Codi font:
 
@@ -91,6 +91,6 @@ A la lambda registrada pel botó verifiquem quin item esta seleccionat al Spinne
 
 Al emulador obtindrem el següent resultat al executar el programa:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/6-Control_Spinner/img/3.PNG)
 
 Si volem que el Spinner no ocupi tot l'ample, cambiarem la propietat layout_width amb el valor wrap_content.

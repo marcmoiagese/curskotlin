@@ -9,7 +9,7 @@ L'objectiu d'aquest curs es iniciarse a la programació Kotlon dins l'entorn And
 - [3- Capturar el click d'un botó](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/3-Capturar_el_clic_dun_boto)
 - [4- Controls RadioGroup i RadioButton](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/4-Controla_RadioGroup_iRadioButton)
 - [5- Control CheckBox](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/5-Control_CheckBox)
-- 6- Control Spinner
+- [6- Control Spinner](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/6-Control_Spinner)
 - 7- Control ListView ( Amb una llista de tipus String )
 - 8- Control ImageButton
 - 9- Notificacions senzilles mitjançant la classe Toast
