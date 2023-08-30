@@ -10,7 +10,7 @@ Crearem un ListView amb els noms dels paisos d'europa. Cuan seleccionem un pais 
 
 primer posarem un TextView a la part superior amb id tv1, definirem a 30sp la propietat txtSize, la pots trobar dins de "All attributes" i un ListView, definirem el seu id amb el valor list1
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/7-Control_ListView_amb_llista_String/img/1.PNG)
 
 Codi fon:
 
@@ -68,7 +68,7 @@ En aquesta expresió lambda el tercer paràmetre indica la posició del item sel
 
 Per codificar la lambda podem utilitzar l'ajuda que ens dona Android Studio per generar automàticament, per aiox escrivim:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/7-Control_ListView_amb_llista_String/img/2.PNG)
 
 Despres premem la tecla intro i Android Studio automàticament ens genera la lambda
 
@@ -76,5 +76,5 @@ Dins de la lambda modificarem el contingut del TextView amb el nom del pais i la
 
 Cuan executem el projecte podem veure una interficie al emulador, semblant a:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/7-Control_ListView_amb_llista_String/img/3.PNG)
 
