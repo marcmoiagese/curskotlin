@@ -11,7 +11,7 @@ L'objectiu d'aquest curs es iniciarse a la programació Kotlon dins l'entorn And
 - [5- Control CheckBox](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/5-Control_CheckBox)
 - [6- Control Spinner](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/6-Control_Spinner)
 - [7- Control ListView ( Amb una llista de tipus String )](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/7-Control_ListView_amb_llista_String)
-- 8- Control ImageButton
+- [8- Control ImageButton](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/8-Control_ImageButton)
 - 9- Notificacions senzilles mitjançant la classe Toast
 - 10- Control EditText
 - 11- Executar una segona "Activity"
