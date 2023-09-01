@@ -6,13 +6,13 @@ Aquesta finestra que es superposa a l'interficie que s'esta ensenyan en aquell m
 
 Generarem un numero aleatori entre 1 i 100000. Ensenyarem en una finestra emergent el numero per un valor de temps. Després, a través d'un control EditText ("Number") demanara al operador que introdueixi el numero que ha vist per pantalla. Cuan es premi un boto controlarem el numero generarat aleatoriament amb el que introdueix l'usuari, i, a través d'un altre Toast informar si ha encertat o no. El primer que farem, es crear l'interficie seguent:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/9-Notificacions_senzilles_amb_la_classe_Toast/img/1.PNG)
 
 Hem posat un TextView, un EditText("Number") i un botó. amb els ID tv1, et1 i boto1 respectivament. Recorda que a la finestra "Component Tree" tenim la referencia  de tots els objectes que conte la nostra interficie.
 
 Si volem que a la vista "blueprint" es mostrin tots els enllasos dels controls, hem de seleccionar l'opcio "Show all Constraints" ja que per defecte no ve activa.
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/9-Notificacions_senzilles_amb_la_classe_Toast/img/2.PNG)
 
 codi fon:
 
@@ -75,7 +75,7 @@ El metode makeText te tres parametres, el primer fa referencia a la finestra o A
 
 Això fa que inmediatament quan executem l'aplicació es mostrara la notificacio amb el numero que l'usuari tindra que memoritzar.
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/9-Notificacions_senzilles_amb_la_classe_Toast/img/3.PNG)
 
 Despres d'uns segons desapareix la notificació de la pantalla que conté el numero aleatori.
 
