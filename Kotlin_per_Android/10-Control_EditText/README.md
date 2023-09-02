@@ -4,7 +4,7 @@ Des que hem comensat el curs, hem utilitzat el control que permet a Andorid, int
 
 Pero a la palette de components a la pestanya "Text" veiem que hi ha molts tipus de EditText:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/10-Control_EditText/img/1.PNG)
 
 Com podem veure a la pestanya "Text" es troben tots els tipus EditText que ens ofereix Android per utilitzar a les nostres aplicacions. Password,  E-mail, Number, etc.
 
@@ -14,7 +14,7 @@ En aquest exemple, farem un programa que ens soliciti un usuari i la seva clau e
 
 Al preme el botó validarem si s'ha introduit algun text al camp de la contrasenya, si no, informarem a través d'una notificació. Utilitzarem la propietat length de la classe String per veure cuants caracters s'han introduit. L'interficie visual ha de ser similar a la següent:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/10-Control_EditText/img/2.PNG)
 
 el formulari EditText per introduir el nom es del tipus "Plain Text", iniciarem la propietet "hint" amb el valor "introdueix el nom". El segon EditText es de tipus "Password" i inicialitzarem la propietat "hint" amb el valor "Introdueix la contrasenya".
 
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val et1=findViewById<EditText>(R.id.et1)
-        val et2=findViewById<EditText>(R.id.et1)
+        val et2=findViewById<EditText>(R.id.et2)
         val boto1=findViewById<Button>(R.id.boto1)
         boto1.setOnClickListener {
             if (et2.text.toString().length == 0)
@@ -59,5 +59,5 @@ Com pots veure cuan es prem el botó "verificr" es procedeix a extreure el conti
 
 A la pantalla obtindrem un resultat similar al seguent:
 
-![IMG]()
+![IMG](https://github.com/marcmoiagese/curskotlin/blob/master/Kotlin_per_Android/10-Control_EditText/img/3.PNG)
 
