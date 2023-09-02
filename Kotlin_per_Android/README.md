@@ -13,7 +13,7 @@ L'objectiu d'aquest curs es iniciarse a la programació Kotlon dins l'entorn And
 - [7- Control ListView ( Amb una llista de tipus String )](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/7-Control_ListView_amb_llista_String)
 - [8- Control ImageButton](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/8-Control_ImageButton)
 - [9- Notificacions senzilles mitjançant la classe Toast](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/9-Notificacions_senzilles_amb_la_classe_Toast)
-- 10- Control EditText
+- [10- Control EditText](https://github.com/marcmoiagese/curskotlin/tree/master/Kotlin_per_Android/10-Control_EditText)
 - 11- Executar una segona "Activity"
 - 12- Executar una segona "activity" i enviarli paràmetres
 - 13- Enmagatzemament de dades mitjançant la classe SharedPreferences
